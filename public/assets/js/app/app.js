@@ -1,0 +1,1 @@
+﻿var uvCapitalApp = angular.module("uvCapitalApp", ['angular-button-spinner']);
