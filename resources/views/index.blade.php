@@ -57,9 +57,9 @@
             </div>
             <!-- / END SECTION HEADER -->
             <!-- TEAM MEMBERS -->
-            <div class="row" data-scrollreveal="enter left after 0s over 2s">
+            <div class="row" data-scrollreveal="enter left after 0s over 2s" style="gap: 10px">
                 <!-- MEMBER -->
-                <div class="col-lg-3 col-sm-3">
+                <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-6">
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-3">
+                <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-6">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-3">
+                <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-6">
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-3">
+                <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-6">
@@ -174,7 +174,7 @@
             <!-- TEAM MEMBERS -->
             <div class="row" data-scrollreveal="enter left after 0s over 2s">
                 <!-- MEMBER -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-4">
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-4">
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-4">
@@ -240,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-4">
