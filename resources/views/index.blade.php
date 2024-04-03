@@ -29,7 +29,7 @@
                         <br /><br />
                     </p>
                     <p style="text-align:justify;">
-                        Please <a href="{{route('about_promoter')}}" target="_blank" style="font-weight:600; color:blue; text-decoration:underline;">Click here</a> to know about the promoter.
+                        Please <a href="{{route('about_promoter')}}" style="font-weight:600; color:blue; text-decoration:underline;">Click here</a> to know about the promoter.
                         <br /><br />
                     </p>
                     <p style="text-align:left;">
@@ -64,7 +64,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <figure class="profile-pic">
-                                    <img src="{{asset('assets/images/image_4.jpg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
+                                    <img src="{{asset('assets/images/mutual.jpeg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
                             <div class="col-lg-6">
@@ -84,13 +84,41 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- / END MEMBER -->
+                </div>
+
                 <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
                             <div class="col-lg-6">
                                 <figure class="profile-pic">
-                                    <img src="{{asset('assets/images/image_5.jpg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
+                                    <img src="{{asset('assets/images/loan.jpeg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
+                                </figure>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="member-details">
+                                    <h5 class="dark-text">Loans</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="details" style="min-height: 200px">
+                                <p>
+                                    Start your entrepreneurial journey on the right foot with our comprehensive business setup services. From registration and licensing to compliance and advisory, we provide end-to-end support to help you establish and grow your business with confidenc
+                                </p>
+                            </div>
+                            <div style="text-align:center">
+                                <a href="{{route('loans')}}" class="btn btn-primary custom-button2 red-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
+                    <div class="team-member2">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <figure class="profile-pic">
+                                    <img src="{{asset('assets/images/digi.jpeg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
                             <div class="col-lg-6">
@@ -116,34 +144,12 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <figure class="profile-pic">
-                                    <img src="{{asset('assets/images/image_3.jpg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
+                                    <img src="{{asset('assets/images/support.png')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
                             <div class="col-lg-6">
                                 <div class="member-details">
-                                    <h5 class="dark-text">Business Setup</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="details" style="min-height: 200px">Start your entrepreneurial journey on the right foot with our comprehensive business setup services. From registration and licensing to compliance and advisory, we provide end-to-end support to help you establish and grow your business with confidenc</div>
-                            <div style="text-align:center">
-                                <a href="{{route('businessSupport')}}" class="btn btn-primary custom-button2 red-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
-                    <div class="team-member2">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <figure class="profile-pic">
-                                    <img src="{{asset('assets/images/image_2.jpg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
-                                </figure>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="member-details">
-                                    <h5 class="dark-text">Support Services</h5>
+                                    <h5 class="dark-text">Business Setup & Support</h5>
                                 </div>
                             </div>
                         </div>
@@ -266,112 +272,204 @@
         </div> <!-- / END CONTAINER -->
     </section> <!-- / END VISION, MISSION, VALUES SECTION  -->
 
-    <section class="newsletter">
-        <div class="container">
-            <h3 class="white-text wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">Get Our Newsletters</h3> <!-- NEWSLETTER SECTION HEADING -->
-            <div class="sub-heading white-text wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-                Subscribe for Email Updates on News &amp; Offers
-            </div>
-            <!-- SUBSCRIPTION FORM -->
-            <form class="subscription wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s" role="form">
-                <input type="email" placeholder="Enter email" required class="form-control input-box" ng-model="subscriberEmailId">
-                <button class="btn btn-primary custom-button red-btn" button-spinner="loading" disabled ng-click="sendEmail(false)">OK</button>
-                <div class="col-md-9">
-                    <div class="success-msg" ng-show="isSuccess">
-                        <i class="fa fa-check"></i>
-                        Email sent successfully!
-                    </div>
-                    <div class="error-msg" ng-show="isError">
-                        <i class="fa fa-times-circle"></i>
-                        Could not send email, please try after some time!
-                    </div>
-                </div>
-            </form>
-            <!-- / END SUBSCRIPTION FORM -->
-        </div> <!-- / END CONTAINER -->
-    </section> <!-- / END NEWSLETTER SECTION -->
+{{--    <section class="newsletter">--}}
+{{--        <div class="container">--}}
+{{--            <h3 class="white-text wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">Get Our Newsletters</h3> <!-- NEWSLETTER SECTION HEADING -->--}}
+{{--            <div class="sub-heading white-text wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">--}}
+{{--                Subscribe for Email Updates on News &amp; Offers--}}
+{{--            </div>--}}
+{{--            <!-- SUBSCRIPTION FORM -->--}}
+{{--            <form class="subscription wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s" role="form">--}}
+{{--                <input type="email" placeholder="Enter email" required class="form-control input-box" ng-model="subscriberEmailId">--}}
+{{--                <button class="btn btn-primary custom-button red-btn" button-spinner="loading" disabled ng-click="sendEmail(false)">OK</button>--}}
+{{--                <div class="col-md-9">--}}
+{{--                    <div class="success-msg" ng-show="isSuccess">--}}
+{{--                        <i class="fa fa-check"></i>--}}
+{{--                        Email sent successfully!--}}
+{{--                    </div>--}}
+{{--                    <div class="error-msg" ng-show="isError">--}}
+{{--                        <i class="fa fa-times-circle"></i>--}}
+{{--                        Could not send email, please try after some time!--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </form>--}}
+{{--            <!-- / END SUBSCRIPTION FORM -->--}}
+{{--        </div> <!-- / END CONTAINER -->--}}
+{{--    </section>--}}
+    <!-- / END NEWSLETTER SECTION -->
     <!-- =========================
        CONTACT US
     ============================== -->
+
+
+
+
+
+
+
+
+
+
+
+
     <section class="works" id="contact">
         <div class="container">
-            <!-- SECTION HEADER -->
-            <div class="section-header">
-                <!-- SECTION TITLE -->
-                <h2 class="dark-text">Contact us</h2>
-                <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-                <!--<h6 class="white-text">
-                    Have any question? Drop us a message. We will get back to you in 24 hours.
-                </h6>-->
-            </div>
-            <!-- / END SECTION HEADER -->
             <div class="row">
-                <div class="col-lg-12 col-sm-12" style="text-align:center;">
-                    <h5 class="dark-text">Registered Office</h5><br />
-                    <div class="dark-text">
-                        Plot No. 213, First Floor,<br>
-                        Manthan Work Spaces, Phase I,<br>
-                        Industrial Area, Chandigarh<br>
-                        Postal Code : 160002<br>
-                        Phone No: +91 9878434296<br>
-                        Email: <a href="mailto:care@fiscalfellows.com">care@fiscalfellows.com</a><br>
-                        <a href="https://www.google.com/maps/place/Manthan+Work+Spaces/@30.699197,76.804233,16z/data=!4m6!3m5!1s0x390fedb0e5ba0f0f:0x916d8e4a2ef8cf89!8m2!3d30.699197!4d76.8042333!16s%2Fg%2F11srgg_nh8?hl=en&entry=ttu" target="_blank"><img style="width:2%;height:2%;" src="{{asset('assets/images/map72x72.png')}}" alt="Locate us"></a>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="section-header">
+                        <!-- SECTION TITLE -->
+                        <h2 class="dark-text">Contact us</h2>
+                        <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+                        <!--<h6 class="white-text">
+                            Have any question? Drop us a message. We will get back to you in 24 hours.
+                        </h6>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12" style="text-align:center;">
+                            <h5 class="dark-text">Registered Office</h5><br />
+                            <div class="dark-text">
+                                Plot No. 213, First Floor,<br>
+                                Manthan Work Spaces, Phase I,<br>
+                                Industrial Area, Chandigarh<br>
+                                Postal Code : 160002<br>
+                                Phone No: +91 9878434296<br>
+                                Email: <a href="mailto:care@fiscalfellows.com">care@fiscalfellows.com</a><br>
+                                <a href="https://www.google.com/maps/place/Manthan+Work+Spaces/@30.699197,76.804233,16z/data=!4m6!3m5!1s0x390fedb0e5ba0f0f:0x916d8e4a2ef8cf89!8m2!3d30.699197!4d76.8042333!16s%2Fg%2F11srgg_nh8?hl=en&entry=ttu" target="_blank"><img style="width:10%;height:10%;" src="{{asset('assets/images/map72x72.png')}}" alt="Locate us"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="section-header">
+                        <!-- SECTION TITLE -->
+                        <h2 class="dark-text">Business Enquiry</h2>
+                        <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+                        <!--<h6 class="white-text">
+                            Have any question? Drop us a message. We will get back to you in 24 hours.
+                        </h6>-->
+                    </div>
+                    <div class="row">
+                        <form role="form" class="contact-form">
+                            <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                <input type="text" name="company" placeholder="Your Company's Name" class="form-control input-box" ng-model="email.companyName" required>
+                            </div>
+                            <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                <input type="text" name="name" placeholder="Your Name" class="form-control input-box" ng-model="email.name" required>
+                            </div>
+                            <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                <input type="email" name="email" placeholder="Your Email" class="form-control input-box" ng-model="email.emailId" required>
+                            </div>
+                            <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                <input type="text" name="subject" placeholder="Your Contact Number" class="form-control input-box" ng-model="email.phoneNumber" required>
+                            </div>
+                            <div class="col-md-12" data-scrollreveal="enter right after 0s over 1s">
+                                <textarea name="message" class="form-control textarea-box" placeholder="Your Message" ng-model="email.message" required></textarea>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="success-msg" ng-show="isSuccess">
+                                    <i class="fa fa-check"></i>
+                                    Email sent successfully!
+                                </div>
+                                <div class="error-msg" ng-show="isError">
+                                    <i class="fa fa-times-circle"></i>
+                                    Could not send email, please try after some time!
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ng-click="sendEmail(true)" button-spinner="loading">Send Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
 
             </div>
-        </div> <!-- / END CONTAINER -->
-    </section> <!-- / END CONTACT US SECTION-->
-    <!-- =========================
-       BUSINESS ENQUIRY
-    ============================== -->
-    <section class="contact-us" id="businessenquiry" ng-controller="emailController">
+        </div>
+    </section>
+
+
+
+    <section class="products" data-type="background" data-speed="1" id="people">
+        <!--<div class="color-overlay">-->
         <div class="container">
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <!-- SECTION TITLE -->
-                <h2 class="white-text">Business Enquiry</h2>
+                <h2 class="dark-text">People</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6 class="white-text">
-                    Have any question? Drop us a message. We will get back to you in 24 hours.
+                    In addition to the below the core team of Unified Vision Capital include experienced professionals to carry out the in house Transaction Support Services.
                 </h6>-->
             </div>
             <!-- / END SECTION HEADER -->
-            <!-- CONTACT FORM-->
-            <div class="row">
-                <form role="form" class="contact-form">
-                    <div class="col-lg-6 col-sm-4" data-scrollreveal="enter left after 0s over 1s">
-                        <input type="text" name="company" placeholder="Your Company's Name" class="form-control input-box" ng-model="email.companyName" required>
-                    </div>
-                    <div class="col-lg-6 col-sm-4" data-scrollreveal="enter left after 0s over 1s">
-                        <input type="text" name="name" placeholder="Your Name" class="form-control input-box" ng-model="email.name" required>
-                    </div>
-                    <div class="col-lg-6 col-sm-4" data-scrollreveal="enter left after 0s over 1s">
-                        <input type="email" name="email" placeholder="Your Email" class="form-control input-box" ng-model="email.emailId" required>
-                    </div>
-                    <div class="col-lg-6 col-sm-4" data-scrollreveal="enter left after 0s over 1s">
-                        <input type="text" name="subject" placeholder="Your Contact Number" class="form-control input-box" ng-model="email.phoneNumber" required>
-                    </div>
-                    <div class="col-md-12" data-scrollreveal="enter right after 0s over 1s">
-                        <textarea name="message" class="form-control textarea-box" placeholder="Your Message" ng-model="email.message" required></textarea>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="success-msg" ng-show="isSuccess">
-                            <i class="fa fa-check"></i>
-                            Email sent successfully!
+
+            <style>
+                @media screen and (min-width:1000px) {
+                    div.owl-wrapper{
+                        width: 100% !important;
+                    }
+                    div.owl-wrapper>div.owl-item{
+                        width: 49% !important;
+                    }
+                }
+            </style>
+
+
+            <!-- PRODUCTS -->
+            <div class="row" data-scrollreveal="enter right after 0s over 1s">
+{{--                <div class="peopleNavigation">--}}
+{{--                    <a class="btn prev navigationBtn">--}}
+{{--                        <span class="glyphicon glyphicon-chevron-left white-text" aria-hidden="true">--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                    <a class="btn next navigationBtn">--}}
+{{--                        <span class="glyphicon glyphicon-chevron-right white-text" aria-hidden="true"></span>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+                <div class="col-md-12">
+                        <!-- Ajay Kumar, Chief Executive Officer -->
+                        <div class="team-member2">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="member-details" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+                                        <img src="{{asset('assets/images/noimg.jpg')}}" style="height: 100px; width: 100px;object-fit: cover; border-radius: 50%" alt="">
+                                        <h5 class="dark-text">
+                                            MR. PAWANINDER JASWAL
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="details">
+                                    <p>Meet our esteemed promoter, Mr. Pawaninder Jaswal! With a wealth of experience spanning over 26 years, he brings a unique blend of expertise in finance, taxation, and business management. Demonstrating his commitment to excellence in financial matters. Let’s delve into his remarkable journey:</p>
+                                </div>
+{{--                                <div style="text-align:right;">--}}
+{{--                                    <ul class="soc">--}}
+{{--                                        <li><a class="soc-twitter" href="#"> <i class="fa-brands fa-facebook"></i> </a></li>--}}
+{{--                                        <li><a class="soc-linkedin" href="https://www.linkedin.com/company/unified-vision-capital-pvt-ltd-?trk=nmp_rec_act_company_name"></a></li>--}}
+{{--                                    </ul>--}}
+{{--                                </div>--}}
+                                <br>
+
+                                <div style="text-align:center">
+                                    <a href="{{route('about_promoter')}}" class="btn btn-primary custom-button2 red-btn">Read More</a>
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="error-msg" ng-show="isError">
-                            <i class="fa fa-times-circle"></i>
-                            Could not send email, please try after some time!
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <button class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ng-click="sendEmail(true)" button-spinner="loading">Send Message</button>
-                    </div>
-                </form>
+
+
+                </div> <!-- / END COLUMN -->
             </div>
-            <!-- / END CONTACT FORM-->
+            <!--<br />-->
+            <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+            <br /><br /><br />
         </div> <!-- / END CONTAINER -->
-    </section> <!-- / END BUSINESS ENQUIRY SECTION-->
+        <!--</div>--> <!-- / END COLOR OVERLAY -->
+    </section>
+
+
+
+
 
 @endsection

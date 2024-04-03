@@ -8,7 +8,7 @@
                         <li><a href="{{route('home')}}">Home</a></li>
                         <li><a href="{{route('home')}}#aboutus">About us</a></li>
                         <li><a href="{{route('home')}}#contact">Contact us</a></li>
-                        <li><a href="{{route('home')}}#businessenquiry">Business Enquiry</a></li>
+                        <li><a href="{{route('home')}}#contact">Business Enquiry</a></li>
                     </ul>
                 </div>
             </div>

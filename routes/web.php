@@ -19,6 +19,9 @@ Route::get('/about_us', function () {
 Route::get('/mutual_funds', function () {
     return view('mutualFunds');
 })->name('mutualFunds');
+Route::get('/loans', function () {
+    return view('loans');
+})->name('loans');
 
 Route::get('/digital_signature', function () {
     return view('digitalSignature');
