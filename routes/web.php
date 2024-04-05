@@ -7,11 +7,6 @@ Route::get('/', function () {
 })->name('home');
 
 
-
-Route::get('/about_promoter', function () {
-    return view('about_promoter');
-})->name('about_promoter');
-
 Route::get('/about_us', function () {
     return view('about_us');
 })->name('about_us');

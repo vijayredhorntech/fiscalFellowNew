@@ -32,7 +32,7 @@
         <h1 class="intro" style="margin-top: {{Route::currentRouteName()==='home'? '27%': '0%'}}; padding-bottom: {{Route::currentRouteName()==='home'? '0%': '0%'}};">
             <!--Enhance the value for the stakeholders & employers by identifying most apposite patron.-->
 
-            {{Route::currentRouteName()==='home'? 'We Help You Businesses Innovate and Grow': ''}}
+            {{Route::currentRouteName()==='home'? 'Balancing your Finance': ''}}
         </h1>
         <!-- CALL TO ACTION BUTTONS -->
         <div class="buttons" style="display:{{Route::currentRouteName()==='home'? '': 'none'}}">

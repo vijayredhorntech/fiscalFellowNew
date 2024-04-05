@@ -29,7 +29,7 @@
                         <br /><br />
                     </p>
                     <p style="text-align:justify;">
-                        Please <a href="{{route('about_promoter')}}" style="font-weight:600; color:blue; text-decoration:underline;">Click here</a> to know about the promoter.
+                        Please <a href="{{route('home')}}#promoters" style="font-weight:600; color:blue; text-decoration:underline;">Click here</a> to know about the promoter.
                         <br /><br />
                     </p>
                     <p style="text-align:left;">
@@ -395,7 +395,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <!-- SECTION TITLE -->
-                <h2 class="dark-text">People</h2>
+                <h2 class="dark-text">Promotors and Team</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6 class="white-text">
                     In addition to the below the core team of Unified Vision Capital include experienced professionals to carry out the in house Transaction Support Services.
@@ -416,16 +416,7 @@
 
 
             <!-- PRODUCTS -->
-            <div class="row" data-scrollreveal="enter right after 0s over 1s">
-{{--                <div class="peopleNavigation">--}}
-{{--                    <a class="btn prev navigationBtn">--}}
-{{--                        <span class="glyphicon glyphicon-chevron-left white-text" aria-hidden="true">--}}
-{{--                        </span>--}}
-{{--                    </a>--}}
-{{--                    <a class="btn next navigationBtn">--}}
-{{--                        <span class="glyphicon glyphicon-chevron-right white-text" aria-hidden="true"></span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
+            <div class="row" id="promoters" data-scrollreveal="enter right after 0s over 1s">
                 <div class="col-md-12">
                         <!-- Ajay Kumar, Chief Executive Officer -->
                         <div class="team-member2">
@@ -452,13 +443,94 @@
                                 <br>
 
                                 <div style="text-align:center">
-                                    <a href="{{route('about_promoter')}}" class="btn btn-primary custom-button2 red-btn">Read More</a>
+                                    <button type="button"  data-toggle="modal" data-target="#pawaninderJaswalModal" class="btn btn-primary custom-button2 red-btn">Read More</button>
+                                </div>
 
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="pawaninderJaswalModal" tabindex="-1" role="dialog" aria-labelledby="pawaninderJaswalModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="pawaninderJaswalModalLabel">MR. PAWANINDER JASWAL</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p style="text-align:justify;">
+                                                    Meet our esteemed promoter, Mr. Pawaninder Jaswal! With a wealth of experience spanning over 26 years, he brings a unique blend of expertise in finance, taxation, and business management. Demonstrating his commitment to excellence in financial matters. Let’s delve into his remarkable journey:
+                                                </p><br />
+
+                                                <p style="text-align:justify;">
+                                                    Professional Journey:
+                                                </p>
+                                                <div style="padding-left: 2em;">
+                                                    <ol style="padding-top: 1em;">
+                                                        <li style="text-align: justify; padding-bottom:1em;">
+                                                            <strong>1)  Computer Age Management Systems Pvt Ltd (CAMS): </strong>
+                                                            As a Regional Coordinator and Processing Officer at CAMS, he played a pivotal role in managing mutual fund operations. CAMS, a leading registrar and transfer agency, entrusted him with critical responsibilities.
+                                                        </li>
+                                                        <li style="text-align: justify; padding-bottom:1em;">
+                                                            <strong>2)  Mahanagar Telephone Nigam Ltd (MTNL): </strong>
+                                                            Mr. Pawaninder Jaswal contributed to the public sector as a Junior Accounts Officer at MTNL, a Government of India PSU. His financial acumen ensured smooth financial operations within the organization.
+                                                        </li>
+                                                        <li style="text-align: justify; padding-bottom:1em;">
+                                                            <strong>3)  M/s Sammati Enterprises: </strong>
+                                                            For over 12 years, he served as the Finance Head at M/s Sammati Enterprises, a chain of exclusive brand retail stores in the region of Chandigarh, Punjab and Haryana. His strategic financial planning, risk management, and astute decision-making elevated the company’s financial health.
+                                                        </li>
+                                                    </ol>
+                                                </div>
+
+
+                                                <p style="text-align:justify;">
+                                                    Qualifications and Expertise:
+                                                </p>
+                                                <div style="padding-left: 2em;">
+                                                    <ol style="padding-top: 1em;">
+                                                        <li style="text-align: justify; padding-bottom:1em;">
+                                                            <strong>Mutual Funds and Stock Market </strong>
+                                                            Mr. Pawaninder Jaswal holds various certifications on Investment management and trading strategies from prestigious institutions:
+
+                                                            <div style="padding-left:5em; padding-top:1em;">
+                                                                <ol>
+                                                                    <li style="text-align: justify;">  <strong>NSE Academy:</strong>
+                                                                        Earned various qualifications related to mutual funds and stock market dynamics empower him to guide investors effectively.
+                                                                    </li>
+                                                                    <li style="text-align: justify;">  <strong>National Institute of Stock Markets (NISM):</strong>
+                                                                        Established by SEBI, NISM’s certifications validate his expertise. Apart from qualifying Mutual Fund Distributors exam he is likely to earn Advance CPDS qualification.
+                                                                    </li>
+
+                                                                </ol>
+                                                            </div>
+                                                        </li>
+                                                        <li style="text-align: justify; padding-bottom:1em;">
+                                                            <strong>Vision and Commitment</strong>
+                                                            <div style="padding-left:5em; padding-top:1em;">
+                                                                <ol>
+                                                                    <li style="text-align: justify;">
+                                                                        Our promoter’s vision is to empower individuals and businesses through sound financial strategies.
+                                                                    </li>
+                                                                    <li style="text-align: justify;">
+                                                                        He believes in transparency, ethical practices, and client-centric solutions.
+                                                                    </li>
+
+
+                                                                </ol>
+                                                            </div>
+                                                        </li>
+
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-
                 </div> <!-- / END COLUMN -->
             </div>
             <!--<br />-->
