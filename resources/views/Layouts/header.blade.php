@@ -27,9 +27,9 @@
             </nav>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style="display: {{Route::currentRouteName()==='home'? 'block': 'none'}}">
         <!-- HEADING -->
-        <h1 class="intro" style="margin-top: {{Route::currentRouteName()==='home'? '27%': '0%'}}; padding-bottom: {{Route::currentRouteName()==='home'? '0%': '0%'}};">
+        <h1 class="intro" >
             <!--Enhance the value for the stakeholders & employers by identifying most apposite patron.-->
 
             {{Route::currentRouteName()==='home'? 'Balancing your Finance': ''}}
@@ -57,7 +57,7 @@
 {{--                </div>--}}
 {{--            </div>--}}
 {{--        </div>--}}
-        <div class="slideShow" style="display:{{Route::currentRouteName()==='home'? '': 'none'}}">
+        <div class="slideShow" style="display:{{Route::currentRouteName()==='home'? '': 'none'}};">
             <a id="start-animation" title="Slide show">
                 <i class="fa fa-play" aria-hidden="true"></i>
             </a>

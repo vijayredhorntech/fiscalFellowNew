@@ -136,6 +136,12 @@ h6 {
  **   BUTTONS                        -----
 -----------------------------------------*/
 
+
+.slideShow
+{
+    margin-bottom: 85px;
+}
+
 .buttons {
     text-align: center;
     margin-bottom: 10px;
@@ -810,6 +816,14 @@ input:focus {
         width: -webkit-calc(100% / 3);
         width: calc(100% / 3);
     }
+
+    .navbar-brand img {
+        height: 60px;
+        width: auto;
+    }
+    .focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us {
+        padding-top: 100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -822,11 +836,26 @@ input:focus {
         height: 80px;
         position: relative;
     }
+    .navbar-brand img {
+        height: 100%;
+        width: auto;
+    }
+    .slideShow
+    {
+        margin-bottom: 65px;
+    }
+    .focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us {
+        padding-top: 20px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .cbp-rfgrid li {
         width: 100%;
+    }
+    .slideShow
+    {
+        margin-bottom: 20px;
     }
 }
 
