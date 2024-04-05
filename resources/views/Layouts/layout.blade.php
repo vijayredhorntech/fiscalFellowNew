@@ -49,6 +49,15 @@
 
 @include('Layouts.footer')
 
+
+
+    <a  href="https://wa.me/9878434296" style="position: fixed; right: 20px; bottom: 20px">
+        <i class="fa-brands fa-whatsapp" style="font-size: 40px"></i>
+    </a>
+
+
+
+
 <!-- / END TEAM DETAILS MODAL POPUP -->
 <!-- SCRIPTS -->
 <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>

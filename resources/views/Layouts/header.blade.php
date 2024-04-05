@@ -19,19 +19,10 @@
 
                     <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? '#f6ab2b': 'black' }}">MUTUAL FUNDS</a></li>
                     <li><a href="{{route('loans')}}" style="color: {{Route::currentRouteName()==='loans'? '#f6ab2b': 'black' }}">LOANS</a></li>
-                    <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? '#f6ab2b': 'black' }};" >DIGITAL SIGNATURES (DSC's)</a></li>
+                    <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? '#f6ab2b': 'black' }};" >DIGITAL SIGNATURES (DSCs)</a></li>
                     <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? '#f6ab2b': 'black' }}">BUSINESS SUPPORT</a></li>
-                    <li><a href="{{route('dsa')}}" style="color: {{Route::currentRouteName()==='dsa'? '#f6ab2b': 'black' }}">DSA</a></li>
+                    <li><a href="{{route('home')}}#contact" style="color: {{Route::currentRouteName()==='dsa'? '#f6ab2b': 'black' }}">CONTACT US</a></li>
 
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT US <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{route('home')}}#contact">Contact us</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="{{route('home')}}#contact">Business Enquiry</a></li>
-                            <li role="separator" class="divider"></li>
-                        </ul>
-                    </li>
                 </ul>
             </nav>
         </div>

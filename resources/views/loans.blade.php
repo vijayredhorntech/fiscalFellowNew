@@ -24,82 +24,45 @@
                     <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
                         <div id="ecww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;"></div>
 
-                        <!-- EMI Calculator Widget END -->
-
-                        <section class="works" id="contact" style="margin-top: 20px">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="section-header" style="text-align: left">
-                                            <!-- SECTION TITLE -->
-                                            <h2 class="dark-text">Contact us</h2>
-                                            <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-                                            <!--<h6 class="white-text">
-                                                Have any question? Drop us a message. We will get back to you in 24 hours.
-                                            </h6>-->
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-sm-12" style="text-align:left;">
-                                                <h5 class="dark-text">Registered Office</h5><br />
-                                                <div class="dark-text">
-                                                    Plot No. 213, First Floor,<br>
-                                                    Manthan Work Spaces, Phase I,<br>
-                                                    Industrial Area, Chandigarh<br>
-                                                    Postal Code : 160002<br>
-                                                    Phone No: +91 9878434296<br>
-                                                    Email: <a href="mailto:care@fiscalfellows.com">care@fiscalfellows.com</a><br>
-                                                    <a href="https://www.google.com/maps/place/Manthan+Work+Spaces/@30.699197,76.804233,16z/data=!4m6!3m5!1s0x390fedb0e5ba0f0f:0x916d8e4a2ef8cf89!8m2!3d30.699197!4d76.8042333!16s%2Fg%2F11srgg_nh8?hl=en&entry=ttu" target="_blank"><img style="width:10%;height:10%;" src="{{asset('assets/images/map72x72.png')}}" alt="Locate us"></a>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="section-header">
-                                            <!-- SECTION TITLE -->
-                                            <h2 class="dark-text">Business Enquiry</h2>
-                                            <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-                                            <!--<h6 class="white-text">
-                                                Have any question? Drop us a message. We will get back to you in 24 hours.
-                                            </h6>-->
-                                        </div>
-                                        <div class="row">
-                                            <form role="form" class="contact-form">
-                                                <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                                    <input type="text" name="company" placeholder="Your Company's Name" class="form-control input-box" ng-model="email.companyName" required>
-                                                </div>
-                                                <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                                    <input type="text" name="name" placeholder="Your Name" class="form-control input-box" ng-model="email.name" required>
-                                                </div>
-                                                <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                                    <input type="email" name="email" placeholder="Your Email" class="form-control input-box" ng-model="email.emailId" required>
-                                                </div>
-                                                <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                                    <input type="text" name="subject" placeholder="Your Contact Number" class="form-control input-box" ng-model="email.phoneNumber" required>
-                                                </div>
-                                                <div class="col-md-12" data-scrollreveal="enter right after 0s over 1s">
-                                                    <textarea name="message" class="form-control textarea-box" placeholder="Your Message" ng-model="email.message" required></textarea>
-                                                </div>
-                                                <div class="col-md-9">
-                                                    <div class="success-msg" ng-show="isSuccess">
-                                                        <i class="fa fa-check"></i>
-                                                        Email sent successfully!
-                                                    </div>
-                                                    <div class="error-msg" ng-show="isError">
-                                                        <i class="fa fa-times-circle"></i>
-                                                        Could not send email, please try after some time!
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <button class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ng-click="sendEmail(true)" button-spinner="loading">Send Message</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-
-                                </div>
+                        <div class="row" style="margin-top: 20px">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <img src="{{asset('assets/images/supportb.jpg')}}" style="width: 100%" alt="">
                             </div>
-                        </section>
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <!-- COLUMN 1 - BRIEF ABOUT THE COMPANY-->
+                                    <div class="col-md-12" data-scrollreveal="enter bottom after 0s over 1s">
+                                        <p style="text-align:justify;">
+                                            We are here with tie up with top-notch banks to provide you finance with competitive rate of interest, the least hassles of documentation and faster disbursements so that you can focus on your core business without worrying about the cumbersome process of documentation, rate negotiations and numerous visits of banks to sort list the best for you.
+                                        </p><br />
+                                        <p style="text-align:justify;">
+                                            Let’s fuel the growth together!!!
+                                        </p>
+                                        <div style="padding-left: 2em;">
+                                            <ol style="padding-top: 1em;">
+                                                <li style="text-align: justify; padding-bottom:1em;">
+                                                    <strong>1) Business Finance: </strong>
+                                                    Finance is the fuel for any business. In a developing economy like ours, which is poised to grow at an exponential rate, business is blooming in every corner of the country. Finance is lifeblood and fuel to each and every business. For a startup, it’s a seeding spur and for an existing one this the expansion fuel.
+                                                </li>
+                                                <li style="text-align: justify; padding-bottom:1em;">
+                                                    <strong>2)  Personal Finance: </strong>
+                                                    Ease of fulfilling the dreams. Fiancé is the biggest tool to turn dreams into reality. Whether you are buying a house, buying your dream car, furnishing your house with amenities, want to grab a latest gadgets or just going on a dream destination we are here to find your dream.
+                                                </li>
+
+
+                                            </ol>
+                                        </div>
+
+
+
+                                    </div>
+                                    <!-- / END 4 FOCUS BOXES -->
+                                </div>
+
+                            </div>
+                        </div>
+
+
 
 
 

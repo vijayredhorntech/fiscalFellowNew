@@ -17,9 +17,9 @@
                     <h4>Our Businesses</h4>
                     <ul class="list-unstyled Categories">
                         <li><a href="{{route('mutualFunds')}}">Mutual Funds</a></li>
+                        <li><a href="{{route('loans')}}">Loans</a></li>
                         <li><a href="{{route('digitalSignature')}}">Digital Signatures </a></li>
                         <li><a href="{{route('businessSupport')}}">Business Support</a></li>
-                        <li><a href="{{route('dsa')}}">DSA</a></li>
                     </ul>
                 </div>
             </div>
