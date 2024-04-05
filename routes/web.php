@@ -42,7 +42,7 @@ Route::post('/query', function (Request $request) {
 
     try {
         Mail::send('mail', ['data' => $data], function ($message) use ($data) {
-            $message->to('vcdiamond507@gmail.com', 'VcDiamond')
+            $message->to('care@fiscalfellows.com', 'Fiscal Fellows')
                 ->subject('Query')
                 ->from($data['email'], $data['name']);
         });
