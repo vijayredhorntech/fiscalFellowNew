@@ -350,34 +350,53 @@
                         </h6>-->
                     </div>
                     <div class="row">
-                        <form role="form" class="contact-form">
-                            <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="text" name="company" placeholder="Your Company's Name" class="form-control input-box" ng-model="email.companyName" required>
+                        <form action="{{route('query')}}" method="POST" class="contact-form">
+                             @csrf
+                            <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                <input type="text" name="name" placeholder="Your Name" class="form-control input-box" value="{{old('name')}}">
+                                @error('name')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
+
+
                             <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="text" name="name" placeholder="Your Name" class="form-control input-box" ng-model="email.name" required>
+                                <input type="email" name="email" placeholder="Your Email" class="form-control input-box" value="{{old('email')}}">
+                                @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
+
+
                             <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="email" name="email" placeholder="Your Email" class="form-control input-box" ng-model="email.emailId" required>
+                                <input type="number" name="phone" placeholder="Your Contact Number" class="form-control input-box" value="{{old('phone')}}">
+                                @error('phone')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
-                            <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="text" name="subject" placeholder="Your Contact Number" class="form-control input-box" ng-model="email.phoneNumber" required>
-                            </div>
+
+
+
                             <div class="col-md-12" data-scrollreveal="enter right after 0s over 1s">
-                                <textarea name="message" class="form-control textarea-box" placeholder="Your Message" ng-model="email.message" required></textarea>
+                                <textarea name="message" class="form-control textarea-box" placeholder="Your Message" >{{old('message')}}</textarea>
+                                @error('message')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
-                            <div class="col-md-9">
-                                <div class="success-msg" ng-show="isSuccess">
-                                    <i class="fa fa-check"></i>
-                                    Email sent successfully!
+
+                            @if(session('success'))
+                                <div class="col-md-9">
+                                    <div class="success-msg">
+                                        <i class="fa fa-check"></i>
+                                        Email sent successfully!
+                                    </div>
                                 </div>
-                                <div class="error-msg" ng-show="isError">
-                                    <i class="fa fa-times-circle"></i>
-                                    Could not send email, please try after some time!
-                                </div>
-                            </div>
+                            @endif
+
+
+
                             <div class="col-md-6">
-                                <button class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ng-click="sendEmail(true)" button-spinner="loading">Send Message</button>
+                                <button  type="submit" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" >Send Message</button>
                             </div>
                         </form>
                     </div>

@@ -37,6 +37,11 @@
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3NN75C99Z9"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    @stack('styles')
 </head>
 
 
@@ -75,5 +80,8 @@
 <script src="{{asset('assets/js/angular/angular-button-spinner.js')}}"></script>
 <script src="{{asset('assets/js/app/app.js')}}"></script>
 <script src="{{asset('assets/js/controllers/emailController.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+@stack('scripts')
 </body>
 </html>

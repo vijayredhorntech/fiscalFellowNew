@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -29,3 +31,39 @@ Route::get('/business_support', function () {
 Route::get('/dsa', function () {
     return view('dsa');
 })->name('dsa');
+
+Route::post('/query', function (Request $request) {
+    $data = $request->validate([
+        'name' => 'required',
+        'email' => 'required|email',
+        'phone' => 'required|digits:10',
+        'message' => 'required',
+    ]);
+
+    try {
+        Mail::send('mail', ['data' => $data], function ($message) use ($data) {
+            $message->to('vcdiamond507@gmail.com', 'VcDiamond')
+                ->subject('Query')
+                ->from($data['email'], $data['name']);
+        });
+    }
+    catch (\Exception $e) {
+
+        session()->flash('success', 'Your query has been submitted successfully!');
+
+
+        return redirect()->back();
+    }
+
+    // save success message in session
+
+    session()->flash('success', 'Your query has been submitted successfully!');
+
+    return redirect()->back();
+
+    // You may add any further logic you need here, such as redirecting the user to a thank you page.
+
+})->name('query');
+
+
+
