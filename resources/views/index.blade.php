@@ -325,16 +325,22 @@
                         </h6>-->
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-sm-12" style="text-align:center;">
+                        <div class="col-lg-12 col-sm-12" style="display: flex; justify-content: center; flex-direction: column; align-items: center">
                             <h5 class="dark-text">Registered Office</h5><br />
-                            <div class="dark-text">
-                                Plot No. 213, First Floor,<br>
+                            <div class="dark-text" style="text-align: left; width: max-content; margin: auto 0px">
+                                <i class="fa fa-home" style="font-size: 15px; color: #f6ab2b; margin-right: 5px"></i>
+                               Plot No. 213, First Floor,<br>
                                 Manthan Work Spaces, Phase I,<br>
                                 Industrial Area, Chandigarh<br>
                                 Postal Code : 160002<br>
-                                Phone No: +91 9878434296<br>
-                                Email: <a href="mailto:care@fiscalfellows.com">care@fiscalfellows.com</a><br>
-                                <a href="https://www.google.com/maps/place/Manthan+Work+Spaces/@30.699197,76.804233,16z/data=!4m6!3m5!1s0x390fedb0e5ba0f0f:0x916d8e4a2ef8cf89!8m2!3d30.699197!4d76.8042333!16s%2Fg%2F11srgg_nh8?hl=en&entry=ttu" target="_blank"><img style="width:10%;height:10%;" src="{{asset('assets/images/map72x72.png')}}" alt="Locate us"></a>
+                                <i class="fa fa-phone" style="font-size: 15px; color: #f6ab2b; margin-right: 5px"></i>
+                                +91 9878434296<br>
+                                <i class="fa fa-envelope" style="font-size: 15px; color: #f6ab2b; margin-right: 5px"></i>
+                                <a href="mailto:care@fiscalfellows.com">care@fiscalfellows.com</a><br>
+                                <div style="width: 100% ; display: flex; justify-content: center">
+                                    <a href="https://www.google.com/maps/place/Manthan+Work+Spaces/@30.699197,76.804233,16z/data=!4m6!3m5!1s0x390fedb0e5ba0f0f:0x916d8e4a2ef8cf89!8m2!3d30.699197!4d76.8042333!16s%2Fg%2F11srgg_nh8?hl=en&entry=ttu" target="_blank"><img style="width:30px;height:30px;" src="{{asset('assets/images/map72x72.png')}}" alt="Locate us"></a>
+
+                                </div>
                             </div>
                         </div>
 
