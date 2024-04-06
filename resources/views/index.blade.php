@@ -414,7 +414,7 @@
 
 
 
-    <section class="products" data-type="background" data-speed="1" id="people">
+    <section class="products" data-type="background" data-speed="1" id="people" style="background: #00000080">
         <!--<div class="color-overlay">-->
         <div class="container">
             <!-- SECTION HEADER -->
