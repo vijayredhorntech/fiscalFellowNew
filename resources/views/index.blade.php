@@ -103,7 +103,7 @@
                         <div class="row">
                             <div class="details" style="min-height: 200px">
                                 <p>
-                                    Start your entrepreneurial journey on the right foot with our comprehensive business setup services. From registration and licensing to compliance and advisory, we provide end-to-end support to help you establish and grow your business with confidenc
+                                    Start your entrepreneurial journey on the right foot with our comprehensive business setup services. From registration and licensing to compliance and advisory, we provide end-to-end support to help you establish and grow your business with confidence.
                                 </p>
                             </div>
                             <div style="text-align:center">
@@ -178,10 +178,10 @@
             </div>
             <!-- / END SECTION HEADER -->
             <!-- TEAM MEMBERS -->
-            <div class="row" data-scrollreveal="enter left after 0s over 2s">
+            <div class="row" style="gap: 10px" data-scrollreveal="enter left after 0s over 2s">
                 <!-- MEMBER -->
-                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
-                    <div class="team-member2">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px; min-height: 280px; box-shadow: 0px 0px 5px 0px darkgray">
+                    <div class="team-member2" style="min-height: 280px">
                         <div class="row">
                             <div class="col-lg-4">
                                 <figure class="profile-pic">
@@ -196,14 +196,14 @@
                         </div>
                         <div class="row">
                             <div class="details">
-                                Our team comprises seasoned professionals with deep industry knowledge
+                                Our team comprises seasoned professionals with deep industry knowledge.
                                 <div style="padding-bottom:2em;"><br /></div>
                             </div>
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
-                    <div class="team-member2">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px; min-height: 280px; box-shadow: 0px 0px 5px 0px darkgray">
+                    <div class="team-member2" style="min-height: 280px">
                         <div class="row">
                             <div class="col-lg-4">
                                 <figure class="profile-pic">
@@ -224,8 +224,8 @@
                         </div>
                     </div>
                 </div><!-- / END MEMBER -->
-                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
-                    <div class="team-member2">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px; min-height: 280px; box-shadow: 0px 0px 5px 0px darkgray">
+                    <div class="team-member2" style="min-height: 280px">
                         <div class="row">
                             <div class="col-lg-4">
                                 <figure class="profile-pic">
@@ -246,8 +246,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px">
-                    <div class="team-member2">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px; min-height: 280px; box-shadow: 0px 0px 5px 0px darkgray">
+                    <div class="team-member2" style="min-height: 280px">
                         <div class="row">
                             <div class="col-lg-4">
                                 <figure class="profile-pic">
@@ -262,7 +262,7 @@
                         </div>
                         <div class="row">
                             <div class="details">
-                                Trust is the foundation of our relationships. We maintain transparency in all our dealings
+                                Trust is the foundation of our relationships. We maintain transparency in all our dealings.
                                 <div style="padding-bottom:2em;"><br /></div>
                             </div>
                         </div>
