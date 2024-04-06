@@ -39,19 +39,19 @@
                                     <ol style="padding-top: 1em;">
 
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>1): Business Registrations:- </strong>
+                                            <strong>1) Business Registrations:- </strong>
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o Company/LLP Registration: </strong>
+                                           o <strong> Company/LLP Registration: </strong>
                                             Set up your business as a private limited, LLP, or partnership.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o GST Registration:</strong>
+                                           o <strong> GST Registration:</strong>
                                             Obtain your Goods and Services Tax identification.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o Trademark Registration:</strong>
+                                           o <strong> Trademark Registration:</strong>
                                             Protect your brand identity
                                         </li>
 
@@ -64,19 +64,19 @@
 
 
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>2): Statutory Compliances:- </strong>
+                                            <strong>2) Statutory Compliances:- </strong>
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o ROC Compliance: </strong>
+                                           o <strong> ROC Compliance: </strong>
                                             Fulfill annual filing requirements with the Registrar of Companies.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>o Tax Compliance:</strong>
+                                           o <strong> Tax Compliance:</strong>
                                             File income tax returns, TDS, and GST.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o Labour Law Compliance:</strong>
+                                           o <strong> Labour Law Compliance:</strong>
                                             Adhere to labor-related regulations.
                                         </li>
 
@@ -87,7 +87,7 @@
 
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>3): Inventory Audits:- </strong>
+                                            <strong>3) Inventory Audits:- </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                             o Regular audits ensure accurate stock records, prevent losses and optimize inventory management.
@@ -101,13 +101,13 @@
 
 
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>4): Daily MIS Reports:- </strong>
+                                            <strong>4) Daily MIS Reports:- </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o Monitor key performance indicators (KPIs), financial metrics and operational data.</strong>
+                                           o <strong> Monitor key performance indicators (KPIs), financial metrics and operational data.</strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o Make informed decisions based on real-time insights.</strong>
+                                           o <strong> Make informed decisions based on real-time insights.</strong>
                                         </li>
 
 
@@ -120,10 +120,10 @@
                                     <ol style="padding-top: 1em;">
 
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>5): Ongoing Support:- </strong>
+                                            <strong>5) Ongoing Support:- </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            <strong>o Compliance Management: </strong>
+                                            o <strong> Compliance Management: </strong>
                                             We ensure your business adheres to legal norms.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">

@@ -49,19 +49,19 @@
                                 <ol style="padding-top: 1em;">
 
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>1): Streamlined Efficiency:- </strong>
+                                        <strong>1) Streamlined Efficiency:- </strong>
 
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o Paperless Transactions: </strong>
+                                        o <strong> Paperless Transactions: </strong>
                                         Our digital signature services eliminate paperwork.
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o Quick and Secure:</strong>
+                                        o <strong> Quick and Secure:</strong>
                                         Sign documents electronically with ease.
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o Authentication:</strong>
+                                        o <strong> Authentication:</strong>
                                         Ensure the authenticity of contracts, agreements and other files.
                                     </li>
 
@@ -74,15 +74,15 @@
 
 
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>2): Legal Compliance:- </strong>
+                                        <strong>2) Legal Compliance:- </strong>
 
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o Legally Valid: </strong>
+                                        o <strong> Legally Valid: </strong>
                                         Our digital signatures comply with legal requirements.
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>o  Audit Trail:</strong>
+                                        o <strong>  Audit Trail:</strong>
                                         Track the entire signing process for transparency.
                                     </li>
 
@@ -93,10 +93,10 @@
 
                                 <ol style="padding-top: 1em;">
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>3): Peace of Mind:- </strong>
+                                        <strong>3) Peace of Mind:- </strong>
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o Trust that your digital identity is safeguarded. </strong>
+                                        o <strong> Trust that your digital identity is safeguarded. </strong>
                                     </li>
                                 </ol>
                             </div>
@@ -108,26 +108,26 @@
                                 <ol style="padding-top: 1em;">
 
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>5): Types of Signatures and Their Uses:- </strong>
+                                        <strong>4) Types of Signatures and Their Uses:- </strong>
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o  Class 1 Digital Signature: </strong>
+                                        o <strong>  Class 1 Digital Signature: </strong>
                                         Basic level, used for securing email communication and user authentication.
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o  Class 2 Digital Signature: </strong>
+                                        o <strong>  Class 2 Digital Signature: </strong>
                                         (Obsolete)
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o  Class 3 Digital Signature: </strong>
+                                        o <strong>  Class 3 Digital Signature: </strong>
                                         High-assurance level, essential for e-tendering, online bidding, and secure transactions. Used for e-filing ITR, EPFO & ESIC filings, MCA filings, e-Tendering, Import Export login with DGFT, IRCTC e-Ticketing and other digital & legal requirements.
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o   Document Signing: </strong>
+                                        o <strong>   Document Signing: </strong>
                                         Sign contracts, agreements and forms electronically.
                                     </li>
                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        <strong>o    Authentication: </strong>
+                                        o <strong> Authentication: </strong>
                                         Verify your identity in online interactions.
                                     </li>
 

@@ -420,7 +420,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <!-- SECTION TITLE -->
-                <h2 class="dark-text">Promotors and Team</h2>
+                <h2 class="white-text">Promotors and Team</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6 class="white-text">
                     In addition to the below the core team of Unified Vision Capital include experienced professionals to carry out the in house Transaction Support Services.

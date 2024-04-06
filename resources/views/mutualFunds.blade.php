@@ -241,7 +241,7 @@
                               <ol style="padding-top: 1em;">
 
                                   <li style="text-align: justify; padding-bottom:1em;">
-                                      <strong>1): Aggressive: </strong>
+                                      <strong>1) Aggressive: </strong>
 
                                   </li>
                                   <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
@@ -252,7 +252,7 @@
                               <ol style="padding-top: 1em;">
 
                                   <li style="text-align: justify; padding-bottom:1em;">
-                                      <strong>2): Balanced: </strong>
+                                      <strong>2) Balanced: </strong>
 
                                   </li>
                                   <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
@@ -263,7 +263,7 @@
                               <ol style="padding-top: 1em;">
 
                                   <li style="text-align: justify; padding-bottom:1em;">
-                                      <strong>3): Safety First: </strong>
+                                      <strong>3) Safety First: </strong>
 
                                   </li>
                                   <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
@@ -319,17 +319,17 @@
                                  </div>
 
                                  <div class="outer_div outer_div2 row"  style="position: relative; margin: 0px">
-                                     <div class="text-center col-lg-4 col-md-4 col-sm-4 col-12">
+                                     <div class="text-center col-lg-6 col-md-6 col-sm-6 col-12">
                                          <div class="display_result" id="showInvested">1,20,000</div>
                                          <div class="result_text">Invested</div>
                                      </div>
 
-                                     <div class="text-center col-lg-4 col-md-4 col-sm-4 col-12">
+                                     <div class="text-center col-lg-6 col-md-6 col-sm-6 col-12">
                                          <div class="display_result" id="showReturn">1,20,000</div>
                                          <div class="result_text">Returns</div>
                                      </div>
 
-                                     <div class="text-center col-lg-4 col-md-4 col-sm-4 col-12">
+                                     <div class="text-center col-lg-12 col-md-12 col-sm-12 col-12">
                                          <div class="display_result" id="showAmps">1,20,000</div>
                                          <div class="result_text">Total</div>
                                      </div>
@@ -358,25 +358,24 @@
 
                          <div style="padding-left: 2em;">
 
-                             <ol style="padding-top: 1em;">
+                             <ul style="padding-top: 1em;">
 
                                  <li style="text-align: justify; padding-bottom:1em;">
-                                     <strong>1): Personalized Solutions:- </strong>
-
+                                     <strong>1) Personalized Solutions:- </strong>
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o  Our platform offers a <strong>diverse array of mutual funds </strong>to cater to various investment goals.
+                                     o Our platform offers a <strong>diverse array of mutual funds </strong>to cater to various investment goals.
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     <strong>o Risk Assessment:</strong>
+                                    o <strong> Risk Assessment:</strong>
                                      We consider your risk appetite and financial objectives to recommend suitable funds.
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     <strong>o Long-Term Planning:</strong>
+                                    o <strong> Long-Term Planning:</strong>
                                      Whether you’re saving for retirement, education, or other milestones, we’ve got you covered.
                                  </li>
 
-                             </ol>
+                             </ul>
                          </div>
 
                          <div style="padding-left: 2em;">
@@ -385,24 +384,24 @@
 
 
                                  <li style="text-align: justify; padding-bottom:1em;">
-                                     <strong>2): Performance Tracking:- </strong>
+                                     <strong>2) Performance Tracking:- </strong>
                                  </li>
                                  <p style="text-align:justify;">
                                      We understand the importance of staying informed. Our mutual fund services provide <strong>regular statements and reports</strong>:
                                  </p>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     <strong>o Account Statements: </strong>
+                                     o <strong> Account Statements: </strong>
                                      Receive periodic statements detailing your investments, transactions, and portfolio performance.
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     <strong>o  Annual Reports:</strong>
+                                     o <strong>  Annual Reports:</strong>
                                      Access comprehensive reports summarizing fund performance, holdings, and strategies.
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                      o Stay informed about fund performance through our user-friendly interface.
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     <strong>o   Regular Updates:</strong>
+                                     o <strong>Regular Updates:</strong>
                                      Receive timely updates on your investments.
                                  </li>
 
@@ -413,7 +412,7 @@
 
                              <ol style="padding-top: 1em;">
                                  <li style="text-align: justify; padding-bottom:1em;">
-                                     <strong>3): Expert Guidance:- </strong>
+                                     <strong>3) Expert Guidance:- </strong>
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                      o Our seasoned advisors provide <strong>personalized guidance</strong>.
@@ -422,7 +421,7 @@
                                      o Whether you’re a novice or an experienced investor, we assist you in making informed choices.
                                  </li>
                                  <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     <strong>o Investment Strategies:</strong> Learn about diversification, asset allocation, and more.
+                                     o <strong>Investment Strategies:</strong> Learn about diversification, asset allocation, and more.
                                  </li>
                              </ol>
                          </div>
