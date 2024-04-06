@@ -81,7 +81,7 @@
                                         o <strong> Legally Valid: </strong>
                                         Our digital signatures comply with legal requirements.
                                     </li>
-                                    <li style="text-align: justify; padding-bottom:1em;">
+                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                         o <strong>  Audit Trail:</strong>
                                         Track the entire signing process for transparency.
                                     </li>
