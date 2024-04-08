@@ -186,33 +186,29 @@
                     <p style="text-align:justify;">
                         At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
                     </p><br />
-                    <p style="text-align:justify;">
-                    <div class="tradingview-widget-container">
-                        <div class="tradingview-widget-container__widget"></div>
-                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                        <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
+                        <script>
+                            window.top.addEventListener("message", function(msg) {
+                                const widget = document.getElementById('TickerTape-klkutaf');
 
-                            {
-                                "symbols": [
-                                {
-                                    "description": "",
-                                    "proName": "GETTEX:NSE"
-                                },
-                                {
-                                    "description": "",
-                                    "proName": "BSE:SENSEX"
+                                if (!widget) return;
+
+                                const styles = msg.data?.styles;
+                                if (styles) {
+                                    Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
                                 }
-                            ],
-                                "showSymbolLogo": true,
-                                "isTransparent": false,
-                                "displayMode": "adaptive",
-                                "colorTheme": "light",
-                                "locale": "en"
-                            }
-                        </script>
-                    </div>
-                    </p><br />
 
-                 <div class="row">
+                                const height = msg.data?.tickerTapeHeight;
+
+                                if (height) {
+                                    widget.style.setProperty('height', height + 'px');
+                                }
+                            });
+                        </script>
+
+
+
+                    <div class="row">
                       <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="swiffy-slider slider-nav-autoplay">
                               <ul class="slider-container">
