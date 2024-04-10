@@ -73,7 +73,7 @@
     </div>
 </header>
 
-<div class="container" style="   background: rgba(0, 0, 0, 0.5); width:100%; {{Route::currentRouteName()==='home'? 'block': 'none'}}">
+<div class="container" style="  background: rgba(0, 0, 0, 0.5); width:100%; display:{{Route::currentRouteName()==='home'? 'block': 'none'}}">
 
 
 
