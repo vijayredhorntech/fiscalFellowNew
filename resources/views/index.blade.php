@@ -28,10 +28,7 @@
                         At Fiscal Fellows, we are committed to empowering individuals and businesses with comprehensive financial solutions. Our aim is to simplify complex processes, enhance convenience, and foster long-term growth for our clients. Here’s a glimpse into what we offer
                         <br /><br />
                     </p>
-                    <p style="text-align:justify;">
-                        Please <a href="{{route('home')}}#promoters" style="font-weight:600; color:blue; text-decoration:underline;">Click here</a> to know about the promoter.
-                        <br /><br />
-                    </p>
+
                     <p style="text-align:left;">
                         <i class="rt-icon-banknote"></i>
                         <!--<a href="pdf/unified_vision_capital_corporate.pdf" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','images/download1.jpg',1)">
@@ -49,7 +46,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <!-- SECTION TITLE -->
-                <h2 class="white-text">Our Businesses</h2>
+                <h2 class="white-text">Our Services</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6 class="white-text">
                     Check our awesome team memebers who always work hard to provide quality products.
@@ -64,7 +61,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <figure class="profile-pic">
-                                    <img src="{{asset('assets/images/mutual.jpeg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
+                                    <img src="{{asset('assets/images/mutual.png')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
                             <div class="col-lg-6">
@@ -91,7 +88,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <figure class="profile-pic">
-                                    <img src="{{asset('assets/images/loan.jpeg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
+                                    <img src="{{asset('assets/images/loan.png')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
                             <div class="col-lg-6">
@@ -149,7 +146,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="member-details">
-                                    <h5 class="dark-text">Business Setup & Support</h5>
+                                    <h5 class="dark-text">Business Setup & Compliance</h5>
                                 </div>
                             </div>
                         </div>
@@ -398,8 +395,11 @@
                                     </div>
                                 </div>
                             @endif
+                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                            <div class="col-md-6 ">
+                                <div class="g-recaptcha" data-sitekey="6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq"></div>
 
-
+                            </div>
 
                             <div class="col-md-6">
                                 <button  type="submit" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" >Send Message</button>
@@ -420,7 +420,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <!-- SECTION TITLE -->
-                <h2 class="white-text">Promotors and Team</h2>
+                <h2 class="white-text">Promotors</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6 class="white-text">
                     In addition to the below the core team of Unified Vision Capital include experienced professionals to carry out the in house Transaction Support Services.
@@ -442,13 +442,13 @@
 
             <!-- PRODUCTS -->
             <div class="row" id="promoters" data-scrollreveal="enter right after 0s over 1s">
-                <div class="col-md-12">
+                <div class="col-md-6">
                         <!-- Ajay Kumar, Chief Executive Officer -->
                         <div class="team-member2">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="member-details" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
-                                        <img src="{{asset('assets/images/noimg.jpg')}}" style="height: 100px; width: 100px;object-fit: cover; border-radius: 50%" alt="">
+                                        <img src="{{asset('assets/images/promoter.png')}}" style="height: 100px; width: 100px;object-fit: cover; border-radius: 50%" alt="">
                                         <h5 class="dark-text">
                                             MR. PAWANINDER JASWAL
                                         </h5>
@@ -556,7 +556,66 @@
                                 </div>
                             </div>
                         </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <!-- Ajay Kumar, Chief Executive Officer -->
+                    <div class="team-member2">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="member-details" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+                                    <img src="{{asset('assets/images/promoter2.jpg')}}" style="height: 100px; width: 100px;object-fit: cover; border-radius: 50%" alt="">
+                                    <h5 class="dark-text">
+                                        MRS. AMAR JYOTI
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="details">
+                                <p>She has done her masters in commerce, graduated in education and certifications related to business backend management. She has served in private sector in the field of accounts and team management and has vast experience in handling backend operations. She also has very rich experience in team handling, trainings and event management.</p>
+                            </div>
+                            {{--                                <div style="text-align:right;">--}}
+                            {{--                                    <ul class="soc">--}}
+                            {{--                                        <li><a class="soc-twitter" href="#"> <i class="fa-brands fa-facebook"></i> </a></li>--}}
+                            {{--                                        <li><a class="soc-linkedin" href="https://www.linkedin.com/company/unified-vision-capital-pvt-ltd-?trk=nmp_rec_act_company_name"></a></li>--}}
+                            {{--                                    </ul>--}}
+                            {{--                                </div>--}}
+                            <br>
+
+                            <div style="text-align:center">
+                                <button type="button"  data-toggle="modal" data-target="#amarJyotiModal" class="btn btn-primary custom-button2 red-btn">Read More</button>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="amarJyotiModal" tabindex="-1" role="dialog" aria-labelledby="amarJyotiModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="amarJyotiModalLabel"> MRS. AMAR JYOTI
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p style="text-align:justify;">
+                                                She has done her masters in commerce, graduated in education and certifications related to business backend management. She has served in private sector in the field of accounts and team management and has vast experience in handling backend operations. She also has very rich experience in team handling, trainings and event management.
+                                            </p><br />
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div> <!-- / END COLUMN -->
+                <!-- / END COLUMN -->
             </div>
             <!--<br />-->
             <!-- SHORT DESCRIPTION ABOUT THE SECTION -->

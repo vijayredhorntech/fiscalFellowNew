@@ -19,7 +19,7 @@
                         <li><a href="{{route('mutualFunds')}}">Mutual Funds</a></li>
                         <li><a href="{{route('loans')}}">Loans</a></li>
                         <li><a href="{{route('digitalSignature')}}">Digital Signatures </a></li>
-                        <li><a href="{{route('businessSupport')}}">Business Support</a></li>
+                        <li><a href="{{route('businessSupport')}}">Business Support & Compliance</a></li>
                     </ul>
                 </div>
             </div>

@@ -42,6 +42,8 @@
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
     @stack('styles')
+
+
 </head>
 
 
@@ -56,7 +58,7 @@
 
 
 
-    <a  href="https://wa.me/9878434296" style="position: fixed; right: 20px; bottom: 20px">
+    <a  href="https://wa.me/9878434296" target="_blank" style="position: fixed; right: 20px; bottom: 20px">
         <i class="fa-brands fa-whatsapp" style="font-size: 40px"></i>
     </a>
 
