@@ -5,7 +5,7 @@
 
         :root {
             --background-color: white;
-            --vigo-color: #5367FF;
+            --vigo-color: #f7b84b;
             --slider-color: #00D09C;
             --input-number-color: #EBEBEB;
         }
@@ -23,7 +23,7 @@
             box-shadow: 0px 0px 10px hsl(0, 0%, 73.9%);
             padding: 3em;
             margin: 1em;
-            width: 530px;
+            width: 100%;
             background-color: white;
         }
 
@@ -52,9 +52,9 @@
             cursor: pointer;
         }
 
-        input[type=range]:focus {
-            outline: none;
-        }
+        /*input[type=range]:focus {*/
+        /*    outline: none;*/
+        /*}*/
 
         input[type=range]::-ms-track {
             width: 100%;
@@ -113,53 +113,13 @@
             border: 1px solid #3197EE;
 
         }
-
-        .radio {
-            margin: 0.5rem;
-            text-align: center;
-        }
-
-        .radio input[type="radio"] {
-            position: absolute;
-            opacity: 0;
-        }
-
-        .radio input[type="radio"]+.radio-label:before {
-            content: '';
-            background: #f4f4f4;
-            border-radius: 100%;
-            border: 1px solid #b4b4b4;
-            display: inline-block;
-            width: 1.4em;
-            height: 1.4em;
-            position: relative;
-            top: -0.2em;
-            margin-right: 1em;
-            vertical-align: top;
-            cursor: pointer;
-            text-align: center;
-            transition: all 250ms ease;
-        }
-
-        .radio input[type="radio"]:checked+.radio-label:before {
-            background-color: #5367FF;
-            box-shadow: inset 0 0 0 4px #f4f4f4;
-        }
-
-        .radio input[type="radio"]:focus+.radio-label:before {
+        input[type=number]:hover {
             outline: none;
-            border-color: #3197EE;
+            border: 1px solid #3197EE;
         }
 
-        .radio input[type="radio"]:disabled+.radio-label:before {
-            box-shadow: inset 0 0 0 4px #f4f4f4;
-            border-color: #b4b4b4;
-            background: #b4b4b4;
-        }
 
-        .radio input[type="radio"]+.radio-label:empty:before {
-            margin-right: 0;
-        }
+
         .returndiv{
             margin-top: 1em;
             font-size: 1.2em;
@@ -211,45 +171,14 @@
             <div class="section-header1">
                 <!-- SECTION TITLE -->
                 <h2 class="dark-text">Mutual Funds</h2>
-                <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-                <!--<h6>
-                    We design &amp; develop qaulity products to help small &amp; medium level business.
-
-                </h6>-->
             </div>
-            <!-- / END SECTION HEADER -->
-            <!-- 4 FOCUS BOXES -->
-            <!-- 3 COLUMNS OF ABOUT US-->
             <div class="row">
-                <!-- COLUMN 1 - BRIEF ABOUT THE COMPANY-->
                 <div class="col-md-12">
-                    <p style="text-align:justify;">
-                        At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
-                    </p><br />
-                        <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
-                        <script>
-                            window.top.addEventListener("message", function(msg) {
-                                const widget = document.getElementById('TickerTape-klkutaf');
-
-                                if (!widget) return;
-
-                                const styles = msg.data?.styles;
-                                if (styles) {
-                                    Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
-                                }
-
-                                const height = msg.data?.tickerTapeHeight;
-
-                                if (height) {
-                                    widget.style.setProperty('height', height + 'px');
-                                }
-                            });
-                        </script>
 
 
 
                     <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="swiffy-slider slider-nav-autoplay">
                               <ul class="slider-container">
                                   <li><img src="{{asset('assets/images/mutualFunds.jpg')}}" style="width: 100%" alt=""></li>
@@ -307,130 +236,213 @@
                           </div>
 
                       </div>
+                         <div class="col-lg-8 col-md-6 col-sm-12">
+                             <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
+                             <script>
+                                 window.top.addEventListener("message", function(msg) {
+                                     const widget = document.getElementById('TickerTape-klkutaf');
 
+                                     if (!widget) return;
 
-                     <div class="col-lg-6 col-md-6 col-sm-12">
+                                     const styles = msg.data?.styles;
+                                     if (styles) {
+                                         Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
+                                     }
 
-                         <form name="sipForm">
-                             <div class="sip-calculator">
-                                 <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">Sip Calculator</h3>
-                                 <div class="sip-calculator-amount">
-                                     <p style="margin-top: 1.8em;">
-                                         <label id="amountLabel"> Monthly Investment</label>
-                                         <input name="Amount" id="inputAmount" type="number" step="100" value="500" min="0"
-                                                max="5000000" />
-                                         <span id="amount"></span> Rs.
-                                     </p>
-                                     <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="1" min="0"
-                                            max="5000000" value="500" />
-                                 </div>
-                                 <div class="sip-calculator-year">
-                                     <p style="margin-top: 1.8em;">
-                                         Time Period
-                                         <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
-                                         <span id="years"></span> Yr
-                                     </p>
-                                     <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
-                                 </div>
-                                 <div class="sip-calculator-roi">
-                                     <p style="margin-top: 1.8em;">
-                                         Return Rate
-                                         <input name="Retunrs" id="inputRoi" type="number" value="2" min="1" max="30" />
-                                         <span id="roi"></span> %
-                                     </p>
-                                     <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="2">
-                                 </div>
-                                 <p class="returndiv">
-                                     <strong>Invested Amount:</strong>
-                                     <span id="investvalue" style="font-size: 1.2em;margin-left: 8px;"></span>
-                                 </p>
-                                 <p class="returndiv">
-                                     <strong>Est. Returns:</strong>
-                                     <span id="estreturn" style="font-size: 1.2em;margin-left: 8px;"></span>
-                                 </p>
-                                 <p class="returndiv">
-                                     <strong>Total Values:</strong>
-                                     <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
-                                 </p>
+                                     const height = msg.data?.tickerTapeHeight;
+
+                                     if (height) {
+                                         widget.style.setProperty('height', height + 'px');
+                                     }
+                                 });
+                             </script>
+                             <p style="text-align:justify;">
+                                 At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
+                             </p><br />
+                             <div style="padding-left: 2em;">
+
+                                 <ul style="padding-top: 1em;">
+
+                                     <li style="text-align: justify; padding-bottom:1em;">
+                                         <strong>1) Personalized Solutions:- </strong>
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o Our platform offers a <strong>diverse array of mutual funds </strong>to cater to various investment goals.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                        o <strong> Risk Assessment:</strong>
+                                         We consider your risk appetite and financial objectives to recommend suitable funds.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                        o <strong> Long-Term Planning:</strong>
+                                         Whether you’re saving for retirement, education, or other milestones, we’ve got you covered.
+                                     </li>
+
+                                 </ul>
                              </div>
-                         </form>
+
+                             <div style="padding-left: 2em;">
+
+                                 <ol style="padding-top: 1em;">
+
+
+                                     <li style="text-align: justify; padding-bottom:1em;">
+                                         <strong>2) Performance Tracking:- </strong>
+                                     </li>
+                                     <p style="text-align:justify;">
+                                         We understand the importance of staying informed. Our mutual fund services provide <strong>regular statements and reports</strong>:
+                                     </p>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o <strong> Account Statements: </strong>
+                                         Receive periodic statements detailing your investments, transactions, and portfolio performance.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o <strong>  Annual Reports:</strong>
+                                         Access comprehensive reports summarizing fund performance, holdings, and strategies.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o Stay informed about fund performance through our user-friendly interface.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o <strong>Regular Updates:</strong>
+                                         Receive timely updates on your investments.
+                                     </li>
+
+                                 </ol>
+                             </div>
+
+                             <div style="padding-left: 2em;">
+
+                                 <ol style="padding-top: 1em;">
+                                     <li style="text-align: justify; padding-bottom:1em;">
+                                         <strong>3) Expert Guidance:- </strong>
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o Our seasoned advisors provide <strong>personalized guidance</strong>.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o Whether you’re a novice or an experienced investor, we assist you in making informed choices.
+                                     </li>
+                                     <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                         o <strong>Investment Strategies:</strong> Learn about diversification, asset allocation, and more.
+                                     </li>
+                                 </ol>
+                             </div>
+                             <form name="sipForm">
+                                 <div class="sip-calculator">
+                                     <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">Sip Calculator</h3>
+                                     <div class="sip-calculator-amount">
+                                         <p style="margin-top: 1.8em;">
+                                             <label id="amountLabel"> Monthly Investment</label>
+                                             <input name="Amount" id="inputAmount" type="number" step="100" value="500" min="0"
+                                                    max="5000000" />
+                                             <span id="amount"></span> Rs.
+                                         </p>
+                                         <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="1" min="0"
+                                                max="5000000" value="500" />
+                                     </div>
+                                     <div class="sip-calculator-year">
+                                         <p style="margin-top: 1.8em;">
+                                             Time Period
+                                             <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
+                                             <span id="years"></span> Yr
+                                         </p>
+                                         <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
+                                     </div>
+                                     <div class="sip-calculator-roi">
+                                         <p style="margin-top: 1.8em;">
+                                             Return Rate
+                                             <input name="Retunrs" id="inputRoi" type="number" value="2" min="1" max="30" />
+                                             <span id="roi"></span> %
+                                         </p>
+                                         <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="2">
+                                     </div>
+
+                                     <div class="sip-calculator-amount" >
+                                         <p style="margin-top: 1.8em; display: flex; justify-content: center">
+                                             <label id="amountLabel"> Monthly Investment</label>
+                                            <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap">
+                                             <div style="display: flex; align-items: center; gap: 3px">
+                                                 <div id="aggressive" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
+                                                  onclick="
+                                                       document.getElementById('inputRoi').value = 16;
+                                                         document.getElementById('myRoi').value = 16;
+                                                            selectedfun();
+                                                            document.getElementById('aggressiveDiv').style.backgroundColor = '#f7b84b';
+                                                            document.getElementById('balancedDiv').style.backgroundColor = 'white';
+                                                            document.getElementById('safetyFirstDiv').style.backgroundColor = 'white';
+
+                                                  "
+
+
+                                                 >
+                                                     <div id="aggressiveDiv" style="height: 12px; width: 12px; border-radius: 50%">
+
+                                                     </div>
+                                                 </div>
+                                                 <span id="amount"></span> Aggressive
+                                             </div>
+
+                                             <div style="display: flex; align-items: center; gap: 3px">
+                                                 <div id="balanced" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
+                                                  onclick="
+                                                       document.getElementById('inputRoi').value = 12;
+                                                         document.getElementById('myRoi').value = 12;
+                                                            selectedfun();
+                                                            document.getElementById('aggressiveDiv').style.backgroundColor = 'white';
+                                                            document.getElementById('balancedDiv').style.backgroundColor = '#f7b84b';
+                                                            document.getElementById('safetyFirstDiv').style.backgroundColor = 'white';
+
+                                                  "
+                                                 >
+                                                     <div id="balancedDiv" style="height: 12px; width: 12px; border-radius: 50%">
+
+                                                     </div>
+                                                 </div>
+                                                 <span id="amount"></span> Balanced
+                                             </div>
+
+                                             <div style="display: flex; align-items: center; gap: 3px">
+                                                 <div id="safetyFirst" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
+                                                  onclick="
+                                                       document.getElementById('inputRoi').value = 8;
+                                                         document.getElementById('myRoi').value = 8;
+                                                            selectedfun();
+                                                            document.getElementById('aggressiveDiv').style.backgroundColor = 'white';
+                                                            document.getElementById('balancedDiv').style.backgroundColor = 'white';
+                                                            document.getElementById('safetyFirstDiv').style.backgroundColor = '#f7b84b';
+
+                                                  "
+                                                 >
+                                                     <div id="safetyFirstDiv" style="height: 12px; width: 12px; border-radius: 50%">
+
+                                                     </div>
+                                                 </div>
+                                                 <span id="amount"></span> Safety First
+                                             </div>
+                                         </div>
+                                         </p>
+
+                                     </div>
+
+                                     <p class="returndiv">
+                                         <strong>Invested Amount:</strong>
+                                         <span id="investvalue" style="font-size: 1.2em;margin-left: 8px;"></span>
+                                     </p>
+                                     <p class="returndiv">
+                                         <strong>Est. Returns:</strong>
+                                         <span id="estreturn" style="font-size: 1.2em;margin-left: 8px;"></span>
+                                     </p>
+                                     <p class="returndiv">
+                                         <strong>Total Values:</strong>
+                                         <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
+                                     </p>
+                                 </div>
+                             </form>
 
 
 
-
-
-
-
-                         <div style="padding-left: 2em;">
-
-                             <ul style="padding-top: 1em;">
-
-                                 <li style="text-align: justify; padding-bottom:1em;">
-                                     <strong>1) Personalized Solutions:- </strong>
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o Our platform offers a <strong>diverse array of mutual funds </strong>to cater to various investment goals.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                    o <strong> Risk Assessment:</strong>
-                                     We consider your risk appetite and financial objectives to recommend suitable funds.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                    o <strong> Long-Term Planning:</strong>
-                                     Whether you’re saving for retirement, education, or other milestones, we’ve got you covered.
-                                 </li>
-
-                             </ul>
                          </div>
-
-                         <div style="padding-left: 2em;">
-
-                             <ol style="padding-top: 1em;">
-
-
-                                 <li style="text-align: justify; padding-bottom:1em;">
-                                     <strong>2) Performance Tracking:- </strong>
-                                 </li>
-                                 <p style="text-align:justify;">
-                                     We understand the importance of staying informed. Our mutual fund services provide <strong>regular statements and reports</strong>:
-                                 </p>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o <strong> Account Statements: </strong>
-                                     Receive periodic statements detailing your investments, transactions, and portfolio performance.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o <strong>  Annual Reports:</strong>
-                                     Access comprehensive reports summarizing fund performance, holdings, and strategies.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o Stay informed about fund performance through our user-friendly interface.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o <strong>Regular Updates:</strong>
-                                     Receive timely updates on your investments.
-                                 </li>
-
-                             </ol>
-                         </div>
-
-                         <div style="padding-left: 2em;">
-
-                             <ol style="padding-top: 1em;">
-                                 <li style="text-align: justify; padding-bottom:1em;">
-                                     <strong>3) Expert Guidance:- </strong>
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o Our seasoned advisors provide <strong>personalized guidance</strong>.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o Whether you’re a novice or an experienced investor, we assist you in making informed choices.
-                                 </li>
-                                 <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                     o <strong>Investment Strategies:</strong> Learn about diversification, asset allocation, and more.
-                                 </li>
-                             </ol>
-                         </div>
-                     </div>
                  </div>
                 </div>
                 <!-- / END 4 FOCUS BOXES -->
@@ -531,9 +543,6 @@
             selectedfun();
         </script>
     @endpush
-
-
-
 @endsection
 
 

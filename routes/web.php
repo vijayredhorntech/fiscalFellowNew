@@ -64,6 +64,37 @@ Route::post('/query', function (Request $request) {
     // You may add any further logic you need here, such as redirecting the user to a thank you page.
 
 })->name('query');
+Route::post('/dscQuery', function (Request $request) {
+    $data = $request->validate([
+        'name' => 'required',
+        'dcsType' => 'required',
+        'number' => 'required',
+    ]);
+
+    try {
+        Mail::send('dscMail', ['data' => $data], function ($message) use ($data) {
+            $message->to('care@fiscalfellows.com', 'Fiscal Fellows')
+                ->subject('Query')
+                ->from('care@fiscalfellows.com', 'New Query');
+        });
+    }
+    catch (\Exception $e) {
+
+        session()->flash('success', 'Your query has been submitted successfully!');
+
+
+        return redirect()->back();
+    }
+
+    // save success message in session
+
+    session()->flash('success', 'Your query has been submitted successfully!');
+
+    return redirect()->back();
+
+    // You may add any further logic you need here, such as redirecting the user to a thank you page.
+
+})->name('dscQuery');
 
 
 

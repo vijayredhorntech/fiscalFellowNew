@@ -7,7 +7,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header1">
                 <!-- SECTION TITLE -->
-                <h2 class="dark-text">Business Setup and Support Services</h2>
+                <h2 class="dark-text">Business Setup and Compliance Services</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6>
                     We design &amp; develop qaulity products to help small &amp; medium level business.
@@ -25,7 +25,16 @@
 
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
-                            <img src="{{asset('assets/images/supportb.jpg')}}" style="width: 100%" alt="">
+                            <div class="swiffy-slider slider-nav-autoplay">
+                                <ul class="slider-container">
+                                    <li><img src="{{asset('assets/images/business Support 2.png')}}" style="width: 100%" alt=""></li>
+                                    <li><img src="{{asset('assets/images/business Support 4.jpg')}}" style="width: 100%" alt=""></li>
+                                </ul>
+
+                                <button type="button" class="slider-nav"></button>
+                                <button type="button" class="slider-nav slider-nav-next"></button>
+                            </div>
+
                         </div>
                         <div class="col-lg-8 col-md-6 col-sm-12">
                             <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
@@ -37,7 +46,6 @@
                                 <div style="padding-left: 2em;">
 
                                     <ol style="padding-top: 1em;">
-
                                         <li style="text-align: justify; padding-bottom:1em;">
                                             <strong>1) Business Registrations:- </strong>
 
@@ -54,24 +62,17 @@
                                            o <strong> Trademark Registration:</strong>
                                             Protect your brand identity
                                         </li>
-
                                     </ol>
                                 </div>
 
                                 <div style="padding-left: 2em;">
 
                                     <ol style="padding-top: 1em;">
-
-
                                         <li style="text-align: justify; padding-bottom:1em;">
                                             <strong>2) Statutory Compliances:- </strong>
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> ROC Compliance: </strong>
-                                            Fulfill annual filing requirements with the Registrar of Companies.
-                                        </li>
-                                        <li style="text-align: justify; padding-bottom:1em;">
                                            o <strong> Tax Compliance:</strong>
                                             File income tax returns, TDS, and GST.
                                         </li>
@@ -79,12 +80,10 @@
                                            o <strong> Labour Law Compliance:</strong>
                                             Adhere to labor-related regulations.
                                         </li>
-
                                     </ol>
                                 </div>
 
                                 <div style="padding-left: 2em;">
-
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
                                             <strong>3) Inventory Audits:- </strong>
@@ -98,8 +97,6 @@
                                 <div style="padding-left: 2em;">
 
                                     <ol style="padding-top: 1em;">
-
-
                                         <li style="text-align: justify; padding-bottom:1em;">
                                             <strong>4) Daily MIS Reports:- </strong>
                                         </li>
@@ -109,8 +106,6 @@
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                            o <strong> Make informed decisions based on real-time insights.</strong>
                                         </li>
-
-
                                     </ol>
                                 </div>
 
@@ -118,7 +113,6 @@
                                 <div style="padding-left: 2em;">
 
                                     <ol style="padding-top: 1em;">
-
                                         <li style="text-align: justify; padding-bottom:1em;">
                                             <strong>5) Ongoing Support:- </strong>
                                         </li>
@@ -129,8 +123,6 @@
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                             o Financial Advisory: Seek advice on financial planning, taxation and growth strategies.
                                         </li>
-
-
                                     </ol>
                                 </div>
 
