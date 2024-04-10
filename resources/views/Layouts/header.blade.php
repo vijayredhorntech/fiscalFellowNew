@@ -8,48 +8,49 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{route('home')}}" class="navbar-brand">
+                <a href="{{route('home')}}" class="navbar-brand" style="display: flex; align-items: center; gap: 5px">
                     <img src="{{asset('assets/images/logo.jpg')}}" alt="Unified Vision Capital">
+                    <span class="brandName">Fiscal Fellows</span>
                 </a>
             </div>
             <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
                 <ul class="nav navbar-nav navbar-right responsive-nav">
                     <div class="row" >
-                        <div class="col-lg-4 col-md-4 col-6" style="margin-top: 10px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6" style="margin-top: 10px">
                             <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? '#f6ab2b': 'black' }}; text-align: center; display: flex;  align-items: center; gap:3px; font-weight: 600">
                                     <img src="{{asset('assets/images/About Us.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
 
                                     ABOUT US</a></li>
 
                         </div>
-                        <div class="col-lg-4 col-md-4 col-6" style="margin-top: 10px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6" style="margin-top: 10px">
                             <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? '#f6ab2b': 'black' }}; display: flex;  align-items: center; gap:3px; font-weight: 600">
                                     <img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
 
                                     MUTUAL FUNDS</a></li>
 
                         </div>
-                        <div class="col-lg-4 col-md-4 col-6" style="margin-top: 10px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6" style="margin-top: 10px">
                             <li><a href="{{route('loans')}}" style="color: {{Route::currentRouteName()==='loans'? '#f6ab2b': 'black' }}; display: flex;  align-items: center; gap:3px; font-weight: 600">
                                     <img src="{{asset('assets/images/HOme Loan 3.jpeg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
 
                                     LOANS</a></li>
 
                         </div>
-                        <div class="col-lg-4 col-md-4 col-6" style="margin-top: 10px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6" style="margin-top: 10px">
                             <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? '#f6ab2b': 'black' }}; display: flex;  align-items: center; gap:3px; font-weight: 600" >
                                     <img src="{{asset('assets/images/DSC.jpeg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                                     DIGITAL SIGNATURES (DSCs)</a></li>
 
                         </div>
-                        <div class="col-lg-4 col-md-4 col-6" style="margin-top: 10px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6" style="margin-top: 10px">
                             <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? '#f6ab2b': 'black' }};display: flex;  align-items: center; gap:3px; font-weight: 600">
                                     <img src="{{asset('assets/images/business Support 2.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
 
                                     BUSINESS SUPPORT & COMPLIANCE</a></li>
 
                         </div>
-                        <div class="col-lg-4 col-md-4 col-6" style="margin-top: 10px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6" style="margin-top: 10px">
                             <li><a href="{{route('home')}}#contact" style="color: {{Route::currentRouteName()==='dsa'? '#f6ab2b': 'black' }}; display: flex;  align-items: center; gap:3px; font-weight: 600">
                                     <img src="{{asset('assets/images/contact us 1.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
 
