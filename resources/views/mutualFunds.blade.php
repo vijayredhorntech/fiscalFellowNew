@@ -181,6 +181,7 @@
                       <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="swiffy-slider slider-nav-autoplay">
                               <ul class="slider-container">
+                                  <li><img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="width: 100%" alt=""></li>
                                   <li><img src="{{asset('assets/images/mutualFunds.jpg')}}" style="width: 100%" alt=""></li>
                                   <li><img src="{{asset('assets/images/mutual.jpeg')}}" style="width: 100%" alt=""></li>
                               </ul>

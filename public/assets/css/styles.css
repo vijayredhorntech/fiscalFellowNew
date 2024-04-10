@@ -455,16 +455,6 @@ input:focus {
     margin: -100px 0 0 -100px;
 }
 
-/*---------------------------------------
-=========================================
- **   SECTION STYLES                 -----
-=========================================
------------------------------------------*/
-
-/*---------------------------------------
- **   SECTION:  HOME                  -----
------------------------------------------*/
-
 .header {
     background: rgba(0, 0, 0, 0.5);
     position: relative;
@@ -486,13 +476,19 @@ input:focus {
     position: absolute;
     width: 100%;
     z-index: 1000;
-    min-height: 75px;
+    min-height: 80px;
 }
 
     #main-nav.fixed {
         position: fixed !important;
         top: 0;
     }
+
+    .responsive-nav
+    {
+        width: 600px;
+    }
+
 
 .navbar-inverse .navbar-nav > li {
     display: inline;
