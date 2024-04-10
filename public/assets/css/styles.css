@@ -348,6 +348,7 @@ h6 {
     width: 100%;
     text-align: left;
     text-transform: none;
+    border: 1px solid #5b5b5b;
     padding: 9px;
     min-height: 46px;
     padding-left: 15px;
@@ -363,6 +364,8 @@ h6 {
     padding: 9px;
     min-height: 60px;
     padding-left: 15px;
+    border: 1px solid #5b5b5b;
+
     display: inline-block;
     border-radius: 4px;
     background: rgba(255,255,255, 0.95);
@@ -377,7 +380,7 @@ input:focus {
     outline: 1 !important;
     outline-color: #f6ab2b !important;
     -webkit-appearance: none;
-    border: none !important;
+    border: 1px solid #b4b4b4 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }

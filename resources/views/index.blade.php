@@ -352,11 +352,11 @@
                             Have any question? Drop us a message. We will get back to you in 24 hours.
                         </h6>-->
                     </div>
+                        <form action="{{route('query')}}" method="POST" class="contact-form" >
                     <div class="row">
-                        <form action="{{route('query')}}" method="POST" class="contact-form">
                              @csrf
                             <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="text" name="name" placeholder="Your Name" class="form-control input-box" value="{{old('name')}}">
+                                <input type="text" name="name" placeholder="Your Name" style="margin-top: 10px" class="form-control input-box" value="{{old('name')}}">
                                 @error('name')
                                 <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
@@ -364,7 +364,7 @@
 
 
                             <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="email" name="email" placeholder="Your Email" class="form-control input-box" value="{{old('email')}}">
+                                <input type="email" name="email" placeholder="Your Email" style="margin-top: 10px" class="form-control input-box" value="{{old('email')}}">
                                 @error('email')
                                 <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
@@ -372,7 +372,7 @@
 
 
                             <div class="col-lg-6 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
-                                <input type="number" name="phone" placeholder="Your Contact Number" class="form-control input-box" value="{{old('phone')}}">
+                                <input type="number" name="phone" placeholder="Your Contact Number" style="margin-top: 10px" class="form-control input-box" value="{{old('phone')}}">
                                 @error('phone')
                                 <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
@@ -381,7 +381,7 @@
 
 
                             <div class="col-md-12" data-scrollreveal="enter right after 0s over 1s">
-                                <textarea name="message" class="form-control textarea-box" placeholder="Your Message" >{{old('message')}}</textarea>
+                                <textarea name="message" class="form-control textarea-box" style="margin-top: 10px" placeholder="Your Message" >{{old('message')}}</textarea>
                                 @error('message')
                                 <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
@@ -401,11 +401,11 @@
 
                             </div>
 
-                            <div class="col-md-6">
-                                <button  type="submit" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" >Send Message</button>
+                            <div class="col-md-6" style="display: flex; align-items: center; padding-left: 20px">
+                                <input  type="submit" value="Send Message" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ></input>
                             </div>
-                        </form>
                     </div>
+                        </form>
                 </div>
 
             </div>
