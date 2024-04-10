@@ -36,7 +36,7 @@ Route::post('/query', function (Request $request) {
     $data = $request->validate([
         'name' => 'required',
         'email' => 'required|email',
-        'phone' => 'required|digits:10',
+        'phone' => 'required',
         'message' => 'required',
     ]);
 
