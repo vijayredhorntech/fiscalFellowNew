@@ -331,43 +331,47 @@
                                      </li>
                                  </ol>
                              </div>
-                             <form name="sipForm">
-                                 <div class="sip-calculator">
-                                     <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">Sip Calculator</h3>
-                                     <div class="sip-calculator-amount">
-                                         <p style="margin-top: 1.8em;">
-                                             <label id="amountLabel"> Monthly Investment</label>
-                                             <input name="Amount" id="inputAmount" type="number" step="100" value="500" min="0"
-                                                    max="5000000" />
-                                             <span id="amount"></span> Rs.
-                                         </p>
-                                         <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="1" min="0"
-                                                max="5000000" value="500" />
-                                     </div>
-                                     <div class="sip-calculator-year">
-                                         <p style="margin-top: 1.8em;">
-                                             Time Period
-                                             <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
-                                             <span id="years"></span> Yr
-                                         </p>
-                                         <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
-                                     </div>
-                                     <div class="sip-calculator-roi">
-                                         <p style="margin-top: 1.8em;">
-                                             Return Rate
-                                             <input name="Retunrs" id="inputRoi" type="number" value="2" min="1" max="30" />
-                                             <span id="roi"></span> %
-                                         </p>
-                                         <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="2">
-                                     </div>
 
-                                     <div class="sip-calculator-amount" >
-                                         <p style="margin-top: 1.8em; display: flex; justify-content: center">
-                                             <label id="amountLabel"> Monthly Investment</label>
-                                            <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap">
-                                             <div style="display: flex; align-items: center; gap: 3px">
-                                                 <div id="aggressive" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
-                                                  onclick="
+
+                             <div class="row">
+                                 <div class="col-md-12">
+                                     <form name="sipForm">
+                                         <div class="sip-calculator">
+                                             <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">Sip Calculator</h3>
+                                             <div class="sip-calculator-amount">
+                                                 <p style="margin-top: 1.8em;">
+                                                     <label id="amountLabel"> Monthly Investment</label>
+                                                     <input name="Amount" id="inputAmount" type="number" step="1" value="500" min="0"
+                                                            max="5000000" />
+                                                     <span id="amount"></span> Rs.
+                                                 </p>
+                                                 <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="1" min="0"
+                                                        max="5000000" value="500" />
+                                             </div>
+                                             <div class="sip-calculator-year">
+                                                 <p style="margin-top: 1.8em;">
+                                                     Time Period
+                                                     <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
+                                                     <span id="years"></span> Yr
+                                                 </p>
+                                                 <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
+                                             </div>
+                                             <div class="sip-calculator-roi">
+                                                 <p style="margin-top: 1.8em;">
+                                                     Return Rate
+                                                     <input name="Retunrs" id="inputRoi" type="number" value="2" min="1" max="30" />
+                                                     <span id="roi"></span> %
+                                                 </p>
+                                                 <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="2">
+                                             </div>
+
+                                             <div class="sip-calculator-amount" >
+                                                 <p style="margin-top: 1.8em; display: flex; justify-content: center">
+                                                     <label id="amountLabel"> Monthly Investment</label>
+                                                 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap">
+                                                     <div style="display: flex; align-items: center; gap: 3px">
+                                                         <div id="aggressive" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
+                                                              onclick="
                                                        document.getElementById('inputRoi').value = 16;
                                                          document.getElementById('myRoi').value = 16;
                                                             selectedfun();
@@ -378,17 +382,17 @@
                                                   "
 
 
-                                                 >
-                                                     <div id="aggressiveDiv" style="height: 12px; width: 12px; border-radius: 50%">
+                                                         >
+                                                             <div id="aggressiveDiv" style="height: 12px; width: 12px; border-radius: 50%">
 
+                                                             </div>
+                                                         </div>
+                                                         <span id="amount"></span> Aggressive
                                                      </div>
-                                                 </div>
-                                                 <span id="amount"></span> Aggressive
-                                             </div>
 
-                                             <div style="display: flex; align-items: center; gap: 3px">
-                                                 <div id="balanced" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
-                                                  onclick="
+                                                     <div style="display: flex; align-items: center; gap: 3px">
+                                                         <div id="balanced" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
+                                                              onclick="
                                                        document.getElementById('inputRoi').value = 12;
                                                          document.getElementById('myRoi').value = 12;
                                                             selectedfun();
@@ -397,17 +401,17 @@
                                                             document.getElementById('safetyFirstDiv').style.backgroundColor = 'white';
 
                                                   "
-                                                 >
-                                                     <div id="balancedDiv" style="height: 12px; width: 12px; border-radius: 50%">
+                                                         >
+                                                             <div id="balancedDiv" style="height: 12px; width: 12px; border-radius: 50%">
 
+                                                             </div>
+                                                         </div>
+                                                         <span id="amount"></span> Balanced
                                                      </div>
-                                                 </div>
-                                                 <span id="amount"></span> Balanced
-                                             </div>
 
-                                             <div style="display: flex; align-items: center; gap: 3px">
-                                                 <div id="safetyFirst" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
-                                                  onclick="
+                                                     <div style="display: flex; align-items: center; gap: 3px">
+                                                         <div id="safetyFirst" style="height: 15px; width: 15px; border-radius: 50%; border: 1px solid black; cursor: pointer; display: flex; justify-content: center; align-items: center"
+                                                              onclick="
                                                        document.getElementById('inputRoi').value = 8;
                                                          document.getElementById('myRoi').value = 8;
                                                             selectedfun();
@@ -416,32 +420,38 @@
                                                             document.getElementById('safetyFirstDiv').style.backgroundColor = '#f7b84b';
 
                                                   "
-                                                 >
-                                                     <div id="safetyFirstDiv" style="height: 12px; width: 12px; border-radius: 50%">
+                                                         >
+                                                             <div id="safetyFirstDiv" style="height: 12px; width: 12px; border-radius: 50%">
 
+                                                             </div>
+                                                         </div>
+                                                         <span id="amount"></span> Safety First
                                                      </div>
                                                  </div>
-                                                 <span id="amount"></span> Safety First
+                                                 </p>
+
                                              </div>
+
+                                             <p class="returndiv">
+                                                 <strong>Invested Amount:</strong>
+                                                 <span id="investvalue" style="font-size: 1.2em;margin-left: 8px;"></span>
+                                             </p>
+                                             <p class="returndiv">
+                                                 <strong>Est. Returns:</strong>
+                                                 <span id="estreturn" style="font-size: 1.2em;margin-left: 8px;"></span>
+                                             </p>
+                                             <p class="returndiv">
+                                                 <strong>Total Values:</strong>
+                                                 <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
+                                             </p>
                                          </div>
-                                         </p>
-
-                                     </div>
-
-                                     <p class="returndiv">
-                                         <strong>Invested Amount:</strong>
-                                         <span id="investvalue" style="font-size: 1.2em;margin-left: 8px;"></span>
-                                     </p>
-                                     <p class="returndiv">
-                                         <strong>Est. Returns:</strong>
-                                         <span id="estreturn" style="font-size: 1.2em;margin-left: 8px;"></span>
-                                     </p>
-                                     <p class="returndiv">
-                                         <strong>Total Values:</strong>
-                                         <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
-                                     </p>
+                                     </form>
                                  </div>
-                             </form>
+                                 <div class="col-md-12">
+                                     <canvas id="pieChart" width="400" height="400"></canvas>
+
+                                 </div>
+                             </div>
 
 
 
@@ -455,30 +465,26 @@
 
 
     @push('scripts')
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
-
             let sliders = document.querySelectorAll("input[type='range']");
             let numbers = document.querySelectorAll("input[type='number']");
-
 
             let investvalue = document.getElementById('investvalue');
             let estreturn = document.getElementById('estreturn');
             let totalv = document.getElementById('totalv');
 
+            let pieChart;
 
-            function selectedfun(){
-
-
-                sliders.forEach(function (slider) {
-                    slider.addEventListener("input",sliderfun)
-
+            function selectedfun() {
+                sliders.forEach(function(slider) {
+                    slider.addEventListener("input", sliderfun);
                 });
-                numbers.forEach(function (number) {
-                    number.addEventListener("input",sliderfun2)
-
+                numbers.forEach(function(number) {
+                    number.addEventListener("input", sliderfun2);
                 });
 
-                function sliderfun(){
+                function sliderfun() {
                     let investments = sliders[0].value;
                     let returnrate = sliders[1].value;
                     let times = sliders[2].value;
@@ -497,17 +503,17 @@
                     futureValue = (investments * ((mathpow - 1) * mplush)) / monthlyRate;
 
                     wealth = Math.round(futureValue - total);
-                    let totalinvestvalue =Math.round(total);
-                    let totalvalues =Math.round(futureValue);
+                    let totalinvestvalue = Math.round(total);
+                    let totalvalues = Math.round(futureValue);
 
                     investvalue.innerText = totalinvestvalue;
                     totalv.innerHTML = totalvalues;
                     estreturn.innerHTML = wealth;
 
+                    updatePieChart(totalinvestvalue, wealth);
                 };
 
-                function sliderfun2(){
-
+                function sliderfun2() {
                     if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value) || 0);
                     if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value) || 0);
 
@@ -529,22 +535,52 @@
 
                     futureValue = (investments * ((mathpow - 1) * mplush)) / monthlyRate;
 
-
                     wealth = Math.round(futureValue - total);
-                    let totalinvestvalue =Math.round(total);
-                    let totalvalues =Math.round(futureValue);
+                    let totalinvestvalue = Math.round(total);
+                    let totalvalues = Math.round(futureValue);
 
                     investvalue.innerText = totalinvestvalue;
                     totalv.innerHTML = totalvalues;
                     estreturn.innerHTML = wealth;
+
+                    updatePieChart(totalinvestvalue, wealth);
                 }
 
                 sliderfun();
-
-
             };
             selectedfun();
+
+            function updatePieChart(investedAmount, profit) {
+                if (pieChart) {
+                    pieChart.destroy();
+                }
+
+                let ctx = document.getElementById('pieChart').getContext('2d');
+                pieChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Invested Amount', 'Profit'],
+                        datasets: [{
+                            data: [investedAmount, profit],
+                            backgroundColor: [
+                                'rgba(255, 159, 64, 0.8)', // Light orange for invested amount
+                                'rgba(75, 192, 192, 0.8)' // Green for profit
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        legend: {
+                            display: true,
+                            position: 'bottom'
+                        }
+                    }
+                });
+            }
         </script>
+
 
     @endpush
 @endsection
