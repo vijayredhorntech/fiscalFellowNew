@@ -37,9 +37,8 @@
                         <li><span><strong>Email:</strong> <a href="mailto:care@fiscalfellows.com">care@fiscalfellows.com</a></span></li>
                         <li>
                             <ul class="soc" style="display: flex; gap: 10px">
-                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/FiscalFellows"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FFiscalFellows"><i class="fa-brands fa-x-twitter"></i></a></li>
                             </ul>
                         </li>
                     </ul>
