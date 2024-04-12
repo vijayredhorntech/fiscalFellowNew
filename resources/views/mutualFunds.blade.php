@@ -348,14 +348,6 @@
                                                  <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="1" min="0"
                                                         max="5000000" value="500" />
                                              </div>
-                                             <div class="sip-calculator-year">
-                                                 <p style="margin-top: 1.8em;">
-                                                     Time Period
-                                                     <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
-                                                     <span id="years"></span> Yr
-                                                 </p>
-                                                 <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
-                                             </div>
                                              <div class="sip-calculator-roi">
                                                  <p style="margin-top: 1.8em;">
                                                      Return Rate
@@ -364,6 +356,15 @@
                                                  </p>
                                                  <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="2">
                                              </div>
+                                             <div class="sip-calculator-year">
+                                                 <p style="margin-top: 1.8em;">
+                                                     Time Period
+                                                     <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
+                                                     <span id="years"></span> Yr
+                                                 </p>
+                                                 <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
+                                             </div>
+
 
                                              <div class="sip-calculator-amount" >
                                                  <p style="margin-top: 1.8em; display: flex; justify-content: center">
@@ -495,14 +496,13 @@
                     var monthlyRate = returnrate / 12 / 100;
                     var months = times * 12;
                     var futureValue = 0;
-                    var wealth = 0;
-                    var total = (investments * times * 12);
-                    let mplush = 1 + monthlyRate;
-                    let mathpow = Math.pow(mplush, months);
+                    var total = 0;
 
-                    futureValue = (investments * ((mathpow - 1) * mplush)) / monthlyRate;
+                    futureValue = investments * (((Math.pow((1 + monthlyRate), months) - 1) * (1 + monthlyRate)) / monthlyRate);
 
-                    wealth = Math.round(futureValue - total);
+                    total = investments * months;
+
+                    let wealth = Math.round(futureValue - total);
                     let totalinvestvalue = Math.round(total);
                     let totalvalues = Math.round(futureValue);
 
@@ -512,6 +512,9 @@
 
                     updatePieChart(totalinvestvalue, wealth);
                 };
+
+
+
 
                 function sliderfun2() {
                     if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value) || 0);
