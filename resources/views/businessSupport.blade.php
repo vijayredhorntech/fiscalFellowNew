@@ -7,7 +7,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header1">
                 <!-- SECTION TITLE -->
-                <h2 class="dark-text">Business Setup and Compliance Services</h2>
+                <h2 class="dark-text">Business Setup, Support and Compliance</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6>
                     We design &amp; develop qaulity products to help small &amp; medium level business.
@@ -47,7 +47,7 @@
 
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>1) Business Registrations:- </strong>
+                                            <strong>1) Business Registrations: </strong>
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
@@ -69,7 +69,7 @@
 
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>2) Statutory Compliances:- </strong>
+                                            <strong>2) Statutory Compliances: </strong>
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
@@ -86,7 +86,7 @@
                                 <div style="padding-left: 2em;">
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>3) Inventory Audits:- </strong>
+                                            <strong>3) Inventory Audits: </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                             o Regular audits ensure accurate stock records, prevent losses and optimize inventory management.
@@ -98,7 +98,7 @@
 
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>4) Daily MIS Reports:- </strong>
+                                            <strong>4) Daily MIS Reports: </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                            o <strong> Monitor key performance indicators (KPIs), financial metrics and operational data.</strong>
@@ -114,7 +114,7 @@
 
                                     <ol style="padding-top: 1em;">
                                         <li style="text-align: justify; padding-bottom:1em;">
-                                            <strong>5) Ongoing Support:- </strong>
+                                            <strong>5) Ongoing Support: </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                             o <strong> Compliance Management: </strong>

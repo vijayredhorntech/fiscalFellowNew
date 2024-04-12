@@ -137,6 +137,8 @@ h6 {
 -----------------------------------------*/
 
 
+
+
 .slideShow
 {
     margin-bottom: 85px;
@@ -369,6 +371,15 @@ h6 {
     display: inline-block;
     border-radius: 4px;
     background: rgba(255,255,255, 0.95);
+}
+
+#digitalSignMobileForm
+{
+    display: none !important;
+}
+#digitalSignDesktopForm
+{
+    display: block;
 }
 
 textarea:hover,
@@ -842,10 +853,27 @@ input:focus {
     }
 
 }
+@media screen and (max-width: 992px) {
+    #digitalSignMobileForm
+    {
+        display: block !important;
+    }
+    #digitalSignDesktopForm
+    {
+        display: none;
+    }
+}
 @media screen and (max-width: 920px) {
     .focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us {
         padding-top: 190px;
     }
+}
+
+.team-member2 h5 {
+    text-transform: uppercase;
+    color: #404040;
+    font-weight: 800;
+    position: relative;
 }
 
 
@@ -870,6 +898,11 @@ input:focus {
     }
     .focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us {
         padding-top: 20px;
+    }
+
+    .team-member2 h5 {
+
+        font-size: 20px !important;
     }
 }
 
@@ -1860,12 +1893,7 @@ footer {
             margin-bottom: 20px;
         }
 
-    .team-member2 h5 {
-        text-transform: uppercase;
-        color: #404040;
-        font-weight: 700;
-        position: relative;
-    }
+
 
     .team-member2 .position {
         font-size: 13px;

@@ -37,7 +37,7 @@
                                     if (window.innerWidth < 768) {
                                         // If screen size is less than 768, remove <br> tag
                                         document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL SIGNATURES (DSCs)';
-                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS, SETUP, SUPPORT & COMPLIANCE';
+                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS SETUP, SUPPORT & COMPLIANCE';
                                     } else {
                                         // If screen size is 768 or greater, add <br> tag
                                         document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL <br> SIGNATURES (DSCs)';
@@ -76,10 +76,10 @@
     </div>
     <div class="slideShow" style="display:{{Route::currentRouteName()==='home'? '': 'none'}};">
         <a id="start-animation" title="Slide show">
-            <i class="fa fa-play" aria-hidden="true"></i>
+            <i class="fa fa-play" aria-hidden="true" style="color: white"></i>
         </a>
         <a id="stop-animation">
-            <i class="fa fa-pause" aria-hidden="true"></i>
+            <i class="fa fa-pause" aria-hidden="true" style="color: white"></i>
         </a>
     </div>
 </div>

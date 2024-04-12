@@ -25,7 +25,7 @@
                         <button type="button" class="slider-nav"></button>
                         <button type="button" class="slider-nav slider-nav-next"></button>
                     </div>
-                    <form action="{{route('dscQuery')}}" method="POST" class="contact-form" >
+                    <form id="digitalSignDesktopForm" action="{{route('dscQuery')}}" method="POST" class="contact-form" >
                         <div class="row">
                             @csrf
                             <h2 class="dark-text ">Contact Us</h2>
@@ -118,6 +118,64 @@
 
                         </div>
                         <!-- / END 4 FOCUS BOXES -->
+                        <div class="col-md-12">
+                            <form id="digitalSignMobileForm" action="{{route('dscQuery')}}" method="POST" class="contact-form" >
+                                <div class="row">
+                                    @csrf
+                                    <h2 class="dark-text ">Contact Us</h2>
+
+
+                                    <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                        <input type="text" name="name" placeholder="Your name" style="margin-top: 10px" class="form-control input-box" value="{{old('name')}}">
+                                        @error('name')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                        <select name="dcsType" style="margin-top: 10px" class="form-control input-box">
+                                            <option value="">-- Select --</option>
+                                            <option value="individualOnly">Class 3 Individual Sign Only</option>
+                                            <option value="individualAndEncryption">Class 3 Individual Sign + Encryption</option>
+                                            <option value="OrgnameOnly">Class 3 with Org Name Sign only</option>
+                                            <option value="OrgnameAndEncryption">Class 3 with Org Name and Encryption</option>
+                                        </select>
+
+
+                                        @error('dcsType')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
+                                        <input type="number" name="number" placeholder="Your Number" style="margin-top: 10px" class="form-control input-box" value="{{old('number')}}">
+                                        @error('number')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+
+                                    @if(session('success'))
+                                        <div class="col-md-9">
+                                            <div class="success-msg">
+                                                <i class="fa fa-check"></i>
+                                                Email sent successfully!
+                                            </div>
+                                        </div>
+                                    @endif
+                                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                    <div class="col-md-12 " style="margin-top: 10px">
+                                        <div class="g-recaptcha" data-sitekey="6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq"></div>
+
+                                    </div>
+
+                                    <div class="col-md-12" style="display: flex; align-items: center; padding-left: 0px">
+                                        <input type="submit" value="Send Message" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ></input>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
                     </div>
 
                 </div>
