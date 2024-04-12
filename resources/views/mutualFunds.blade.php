@@ -238,27 +238,25 @@
 
                       </div>
                          <div class="col-lg-8 col-md-6 col-sm-12">
-{{--                             <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>--}}
-{{--                             <script>--}}
-{{--                                 window.top.addEventListener("message", function(msg) {--}}
-{{--                                     const widget = document.getElementById('TickerTape-klkutaf');--}}
+                             <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
+                             <script>
+                                 window.top.addEventListener("message", function(msg) {
+                                     const widget = document.getElementById('TickerTape-klkutaf');
 
-{{--                                     if (!widget) return;--}}
+                                     if (!widget) return;
 
-{{--                                     const styles = msg.data?.styles;--}}
-{{--                                     if (styles) {--}}
-{{--                                         Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))--}}
-{{--                                     }--}}
+                                     const styles = msg.data?.styles;
+                                     if (styles) {
+                                         Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
+                                     }
 
-{{--                                     const height = msg.data?.tickerTapeHeight;--}}
+                                     const height = msg.data?.tickerTapeHeight;
 
-{{--                                     if (height) {--}}
-{{--                                         widget.style.setProperty('height', height + 'px');--}}
-{{--                                     }--}}
-{{--                                 });--}}
-{{--                             </script>--}}
-
-                             <iframe style="border: none; width:100%; height: 100%;" data-widget-name="ScreenerWidget" src="https://widget.darqube.com/screener-widget?token=6618fb4d7e7cd5981ecc0735" id="ScreenerWidget-3nqhskh"></iframe><script>window.top.addEventListener("message", function(msg) {const widget = document.getElementById('ScreenerWidget-3nqhskh');if (!widget) return;const styles = msg.data?.styles;if (styles) {Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))}});</script>
+                                     if (height) {
+                                         widget.style.setProperty('height', height + 'px');
+                                     }
+                                 });
+                             </script>
 
 
                              <p style="text-align:justify;">
