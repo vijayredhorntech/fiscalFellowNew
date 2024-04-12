@@ -59,7 +59,7 @@
 
 
     <a  href="https://wa.me/9878434296" target="_blank" style="position: fixed; right: 20px; bottom: 20px">
-        <i class="fa-brands fa-whatsapp" style="font-size: 40px"></i>
+        <i class="fa-brands fa-whatsapp" style="font-size: 40px; color: #34b647"></i>
     </a>
 
 

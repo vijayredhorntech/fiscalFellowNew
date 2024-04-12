@@ -59,12 +59,12 @@
                 <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <figure class="profile-pic">
                                     <img src="{{asset('assets/images/mutual.png')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="member-details">
                                     <h5 class="dark-text">Mutual Funds</h5>
                                 </div>
@@ -86,12 +86,12 @@
                 <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <figure class="profile-pic">
                                     <img src="{{asset('assets/images/loan.png')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="member-details">
                                     <h5 class="dark-text">Loans</h5>
                                 </div>
@@ -113,14 +113,14 @@
                 <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <figure class="profile-pic">
                                     <img src="{{asset('assets/images/digi.jpeg')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="member-details">
-                                    <h5 class="dark-text">Digital Signature</h5>
+                                    <h5 class="dark-text">Digital Signatures (dsc<span style="text-transform: lowercase">s</span>)</h5>
                                 </div>
                             </div>
                         </div>
@@ -139,14 +139,14 @@
                 <div class="col-lg-3 col-sm-3" style="margin-bottom: 10px">
                     <div class="team-member2">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <figure class="profile-pic">
                                     <img src="{{asset('assets/images/support.png')}}" alt=""> <!-- MEMBER PROFILE PIC -->
                                 </figure>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="member-details">
-                                    <h5 class="dark-text">Business Setup & Compliance</h5>
+                                    <h5 class="dark-text">Business Setup, Support & Compliance</h5>
                                 </div>
                             </div>
                         </div>

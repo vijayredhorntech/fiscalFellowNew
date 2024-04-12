@@ -62,16 +62,34 @@
                                 </div>
                                 <!-- / END 4 FOCUS BOXES -->
                             </div>
-                            <script src="https://emicalculator.net/widget/2.0/js/emicalc-loader.min.js" type="text/javascript"></script>
-                            <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
-                                <div id="ecww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;">
-
-                                </div>
+                            <div class="row">
+                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                     <img src="{{asset('assets/images/home.png')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
+                                     <span style="font-weight: 700; color: black">Home Lone</span>
+                                 </div>
+                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                     <img src="{{asset('assets/images/car.jpeg')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
+                                     <span style="font-weight: 700; color: black">Car Lone</span>
+                                 </div>
+                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                     <img src="{{asset('assets/images/shop.png')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
+                                     <span style="font-weight: 700; color: black">Business Lone</span>
+                                 </div>
                             </div>
+
 
                         </div>
                     </div>
                 </div>
+                <div class="col-md-12" style="margin-top: 10px">
+                    <script src="https://emicalculator.net/widget/2.0/js/emicalc-loader.min.js" type="text/javascript"></script>
+                    <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
+                        <div id="ecww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div><!-- / END CONTAINER -->
     </section> <!-- / END ABOUT US SECTION -->
     <!-- =========================

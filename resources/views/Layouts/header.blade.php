@@ -30,7 +30,7 @@
                         </a></li>
                     <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? '#f6ab2b': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/business Support 2.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
-                            <span id="businessSupportText">BUSINESS, SETUP, <br> SUPPORT & COMPLIANCE</span>
+                            <span id="businessSupportText">BUSINESS SETUP, <br> SUPPORT & COMPLIANCE</span>
                             <script>
                                 // Function to handle screen size change
                                 function handleScreenSizeChange() {
@@ -41,7 +41,7 @@
                                     } else {
                                         // If screen size is 768 or greater, add <br> tag
                                         document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL <br> SIGNATURES (DSCs)';
-                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS, SETUP, <br> SUPPORT & COMPLIANCE';
+                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS SETUP, <br> SUPPORT & COMPLIANCE';
                                     }
                                 }
 

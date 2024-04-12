@@ -7,7 +7,7 @@
             <!-- SECTION HEADER -->
             <div class="section-header1">
                 <!-- SECTION TITLE -->
-                <h2 class="dark-text">Digital Signatures (DSC<span style="text-transform: lowercase; color: red">s</span>)</h2>
+                <h2 class="dark-text">Digital Signatures (DSC<span style="text-transform: lowercase;">s</span>)</h2>
             </div>
             <!-- / END SECTION HEADER -->
             <!-- 4 FOCUS BOXES -->
@@ -104,97 +104,18 @@
                                 Let’s build a safe society to live happier !!!
                             </p><br />
 
-                            <div style="padding-left: 2em;">
+                            <div>
 
                                 <ol style="padding-top: 1em;">
 
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>1) Streamlined Efficiency:- </strong>
-
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong> Paperless Transactions: </strong>
-                                        Our digital signature services eliminate paperwork.
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong> Quick and Secure:</strong>
-                                        Sign documents electronically with ease.
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong> Authentication:</strong>
-                                        Ensure the authenticity of contracts, agreements and other files.
+                                        Logos of digital Signature Companies shown here are registered with respective brands, we are working with them hence shown here only for reference.
                                     </li>
 
                                 </ol>
                             </div>
 
-                            <div style="padding-left: 2em;">
 
-                                <ol style="padding-top: 1em;">
-
-
-                                    <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>2) Legal Compliance:- </strong>
-
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong> Legally Valid: </strong>
-                                        Our digital signatures comply with legal requirements.
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong>  Audit Trail:</strong>
-                                        Track the entire signing process for transparency.
-                                    </li>
-
-                                </ol>
-                            </div>
-
-                            <div style="padding-left: 2em;">
-
-                                <ol style="padding-top: 1em;">
-                                    <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>3) Peace of Mind:- </strong>
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong> Trust that your digital identity is safeguarded. </strong>
-                                    </li>
-                                </ol>
-                            </div>
-
-
-
-                            <div style="padding-left: 2em;">
-
-                                <ol style="padding-top: 1em;">
-
-                                    <li style="text-align: justify; padding-bottom:1em;">
-                                        <strong>4) Types of Signatures and Their Uses:- </strong>
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong>  Class 1 Digital Signature: </strong>
-                                        Basic level, used for securing email communication and user authentication.
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong>  Class 2 Digital Signature: </strong>
-                                        (Obsolete)
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong>  Class 3 Digital Signature: </strong>
-                                        High-assurance level, essential for e-tendering, online bidding, and secure transactions. Used for e-filing ITR, EPFO & ESIC filings, MCA filings, e-Tendering, Import Export login with DGFT, IRCTC e-Ticketing and other digital & legal requirements.
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong>   Document Signing: </strong>
-                                        Sign contracts, agreements and forms electronically.
-                                    </li>
-                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                        o <strong> Authentication: </strong>
-                                        Verify your identity in online interactions.
-                                    </li>
-
-
-
-                                </ol>
-                            </div>
                         </div>
                         <!-- / END 4 FOCUS BOXES -->
                     </div>
