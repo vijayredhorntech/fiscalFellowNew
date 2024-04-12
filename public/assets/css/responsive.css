@@ -12,10 +12,10 @@
 	.responsive-logo a {
 		float: none !important;
 	}
-    .responsive-nav
-    {
-        width: 500px;
-        padding: 10px;
+    .responsive-nav {
+        text-align: center;
+        width: 100%;
+        padding-top: 0;
     }
 
 	.responsive-nav li {
@@ -107,7 +107,7 @@
 	}
 
 	.navbar-inverse .navbar-nav>li {
-		display: inline-block;
+		display: flex;
 		margin-bottom: 0;
 	}
     /* HOME */
@@ -167,7 +167,7 @@
 	}
     .responsive-nav
     {
-        width: 450px;
+        width: 100%;
     }
 
 
