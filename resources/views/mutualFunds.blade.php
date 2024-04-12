@@ -543,6 +543,7 @@
             };
             selectedfun();
         </script>
+
     @endpush
 @endsection
 
