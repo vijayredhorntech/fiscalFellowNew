@@ -390,16 +390,37 @@
                                 </div>
                             @endif
                             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                            <div class="col-md-6 ">
-                                <div class="g-recaptcha" data-sitekey="6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq"></div>
+                        <div class="col-md-6">
+                            <div id="recaptcha" class="g-recaptcha" data-sitekey="6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq"></div>
+                        </div>
 
-                            </div>
-
-                            <div class="col-md-6" style="display: flex; align-items: center; padding-left: 20px">
-                                <input  type="submit" value="Send Message" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ></input>
-                            </div>
+                        <div class="col-md-6" style="display: flex; align-items: center; padding-left: 20px">
+                            <input id="sendMessageBtn" type="submit" value="Send Message" class="custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" disabled></input>
+                        </div>
                     </div>
                         </form>
+
+                    <script>
+                        var onloadCallback = function() {
+                            grecaptcha.render('recaptcha', {
+                                'sitekey' : '6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq',
+                                'callback' : function(response) {
+                                    document.getElementById('sendMessageBtn').disabled = false;
+                                }
+                            });
+                        };
+
+                        function validateRecaptcha() {
+                            var response = grecaptcha.getResponse();
+
+                            if(response.length === 0) {
+                                alert('Please complete the reCAPTCHA');
+                                return false;
+                            }
+
+                            return true;
+                        }
+                    </script>
                 </div>
 
             </div>
