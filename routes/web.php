@@ -33,6 +33,9 @@ Route::get('/dsa', function () {
 })->name('dsa');
 
 Route::post('/query', function (Request $request) {
+    if ($request->input('g-recaptcha-response')==null){
+        return redirect()->back()->with('error', 'Please select the captcha');
+    }
     $data = $request->validate([
         'name' => 'required',
         'email' => 'required|email',

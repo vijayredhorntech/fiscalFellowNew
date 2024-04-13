@@ -389,6 +389,14 @@
                                     </div>
                                 </div>
                             @endif
+                            @if(session('error'))
+                                <div class="col-md-9">
+                                    <div class="success-msg" style="background-color: red; color: white">
+                                        <i class="fa fa-xmark"></i>
+                                        {{session('error')}}
+                                    </div>
+                                </div>
+                            @endif
                             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                             <div class="col-md-6 ">
                                 <div class="g-recaptcha" data-sitekey="6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq"></div>
@@ -396,7 +404,7 @@
                             </div>
 
                             <div class="col-md-6" style="display: flex; align-items: center; padding-left: 20px">
-                                <input  type="submit" value="Send Message" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ></input>
+                                <input name="captachaValue"  type="submit" value="Send Message" class="btn btn-primary custom-button red-btn" data-scrollreveal="enter left after 0s over 1s" ></input>
                             </div>
                     </div>
                         </form>
