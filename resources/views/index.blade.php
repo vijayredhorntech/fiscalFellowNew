@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" >
                             <div class="details">
                                 Our team comprises seasoned professionals with deep industry knowledge.
                                 <div style="padding-bottom:2em;"><br /></div>
@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" id="contactUs">
                             <div class="details">
                                 Trust is the foundation of our relationships. We maintain transparency in all our dealings.
                                 <div style="padding-bottom:2em;"><br /></div>
@@ -303,13 +303,7 @@
 
 
 
-
-
-
-
-
-
-    <section class="works" id="contact">
+    <section class="works" id="contact" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">

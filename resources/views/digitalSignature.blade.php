@@ -106,10 +106,28 @@
 
                             <div>
 
+                                <ol>
+
+                                    <li style="text-align: justify; padding-bottom:1em;">
+                                           <strong>Types of Signatures and Their Uses:</strong>
+                                    </li>
+                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                        o <strong>Class 1 and Class 2 Digital Signatures:</strong> (Obsolete) were of very Basic level, used for securing email communication and user authentication etc. Not is use nowadays.
+                                    </li>
+                                    <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
+                                        o <strong>Class 3 Digital Signature:</strong> High-assurance level, essential for e-tendering, online bidding, and secure transactions. Used for e-filing ITR, EPFO & ESIC filings, MCA filings, e-Tendering, Import Export login with DGFT, IRCTC e-Ticketing and other digital & legal requirements.
+                                    </li>
+
+                                </ol>
+                            </div>
+
+                            <div>
+
                                 <ol style="padding-top: 1em;">
 
                                     <li style="text-align: justify; padding-bottom:1em;">
-                                        Logos of digital Signature Companies shown here are registered with respective brands, we are working with them hence shown here only for reference.
+                                         <p style="color: dodgerblue; font-size: 12px"><strong style="color: red">*Note:</strong> Logos of digital Signature Companies shown here are registered with respective brands, we are working with them hence shown here only for reference.</p>
+
                                     </li>
 
                                 </ol>

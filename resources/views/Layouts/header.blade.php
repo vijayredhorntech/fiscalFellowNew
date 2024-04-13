@@ -15,44 +15,44 @@
             </div>
             <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
                 <ul class="nav navbar-nav navbar-right responsive-nav">
-                    <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? '#f6ab2b': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? 'white': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/About Us.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             ABOUT US</a></li>
-                    <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? '#f6ab2b': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? 'white': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             MUTUAL FUNDS</a></li>
-                    <li><a href="{{route('loans')}}" style="color: {{Route::currentRouteName()==='loans'? '#f6ab2b': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('loans')}}" style="color: {{Route::currentRouteName()==='loans'? 'white': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/HOme Loan 3.jpeg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             LOANS</a></li>
-                    <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? '#f6ab2b': 'black' }}; font-weight: 600" >
+                    <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? 'white': 'black' }}; font-weight: 600" >
                             <img src="{{asset('assets/images/DSC.jpeg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
-                            <span id="digitalSignatureText">DIGITAL SIGNATURES (DSCs)</span>
+                            <span id="digitalSignatureText">DSCs</span>
                         </a></li>
-                    <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? '#f6ab2b': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? 'white': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/business Support 2.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
-                            <span id="businessSupportText">BUSINESS SETUP, <br> SUPPORT & COMPLIANCE</span>
-                            <script>
-                                // Function to handle screen size change
-                                function handleScreenSizeChange() {
-                                    if (window.innerWidth < 768) {
-                                        // If screen size is less than 768, remove <br> tag
-                                        document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL SIGNATURES (DSCs)';
-                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS SETUP, SUPPORT & COMPLIANCE';
-                                    } else {
-                                        // If screen size is 768 or greater, add <br> tag
-                                        document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL <br> SIGNATURES (DSCs)';
-                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS SETUP, <br> SUPPORT & COMPLIANCE';
-                                    }
-                                }
+                            <span id="businessSupportText">BUSINESS SUPPORT</span>
+{{--                            <script>--}}
+{{--                                // Function to handle screen size change--}}
+{{--                                function handleScreenSizeChange() {--}}
+{{--                                    if (window.innerWidth < 768) {--}}
+{{--                                        // If screen size is less than 768, remove <br> tag--}}
+{{--                                        document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL SIGNATURES (DSCs)';--}}
+{{--                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS SETUP, SUPPORT & COMPLIANCE';--}}
+{{--                                    } else {--}}
+{{--                                        // If screen size is 768 or greater, add <br> tag--}}
+{{--                                        document.getElementById('digitalSignatureText').innerHTML = 'DIGITAL <br> SIGNATURES (DSCs)';--}}
+{{--                                        document.getElementById('businessSupportText').innerHTML = 'BUSINESS SETUP, <br> SUPPORT & COMPLIANCE';--}}
+{{--                                    }--}}
+{{--                                }--}}
 
-                                // Call the function initially
-                                handleScreenSizeChange();
+{{--                                // Call the function initially--}}
+{{--                                handleScreenSizeChange();--}}
 
-                                // Add event listener for screen resize
-                                window.addEventListener('resize', handleScreenSizeChange);
-                            </script>
+{{--                                // Add event listener for screen resize--}}
+{{--                                window.addEventListener('resize', handleScreenSizeChange);--}}
+{{--                            </script>--}}
                         </a></li>
-                    <li><a href="{{route('home')}}#contact" style="color: {{Route::currentRouteName()==='dsa'? '#f6ab2b': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('home')}}#contactUs" style="color: {{Route::currentRouteName()==='dsa'? 'white': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/contact us 1.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             CONTACT US</a></li>
 

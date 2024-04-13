@@ -504,12 +504,19 @@ input:focus {
 .navbar-inverse .navbar-nav > li {
     display: inline;
     margin-right: 30px;
+    padding: 0px 20px;
+    border-radius: 5px;
     margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #f6ab2b;
 }
+/*.navbar-inverse .navbar-nav > li :hover a {*/
+/*    color: #20aa73 !important;*/
+/*}*/
 
-    .navbar-inverse .navbar-nav > li:last-child {
-        margin-right: 0 !important;
-    }
+    /*.navbar-inverse .navbar-nav > li:last-child {*/
+    /*    margin-right: 0 !important;*/
+    /*}*/
 
     .navbar-inverse .navbar-nav > li > a {
         color: #404040;
@@ -544,10 +551,10 @@ input:focus {
     left: 12.5%;
 }*/
 
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #f6ab2b;
-    outline: none;
-}
+/*.navbar-inverse .navbar-nav > li > a:hover {*/
+/*    color: #f6ab2b;*/
+/*    outline: none;*/
+/*}*/
 
 .navbar-toggle {
     border: 0;
@@ -837,6 +844,7 @@ input:focus {
     .focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us {
         padding-top: 150px;
     }
+
 }
 
 
@@ -917,7 +925,10 @@ input:focus {
     .navbar-inverse .navbar-nav > li {
         color: #404040;
         padding: 0;
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom:0px !important;
+        margin-right: 0px !important;
+        padding: 5px 10px;
     }
     .navbar-inverse .navbar-nav > li > a {
         color: #404040;
