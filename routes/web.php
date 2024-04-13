@@ -67,7 +67,14 @@ Route::post('/query', function (Request $request) {
     // You may add any further logic you need here, such as redirecting the user to a thank you page.
 
 })->name('query');
+
+
+
 Route::post('/dscQuery', function (Request $request) {
+    if ($request->input('g-recaptcha-response')==null){
+        return redirect()->back()->with('error', 'Please select the captcha');
+    }
+
     $data = $request->validate([
         'name' => 'required',
         'dcsType' => 'required',

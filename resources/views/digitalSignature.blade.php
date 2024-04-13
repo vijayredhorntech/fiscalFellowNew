@@ -69,6 +69,14 @@
                                     </div>
                                 </div>
                             @endif
+                            @if(session('error'))
+                                <div class="col-md-9">
+                                    <div class="success-msg" style="background-color: red; color: white">
+                                        <i class="fa fa-xmark"></i>
+                                        {{session('error')}}
+                                    </div>
+                                </div>
+                            @endif
                             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                             <div class="col-md-12 " style="margin-top: 10px">
                                 <div class="g-recaptcha" data-sitekey="6LcpiLYpAAAAADcNHZmh4TfNgXIXl2lMUpKu6ENq"></div>
@@ -178,6 +186,14 @@
                                             <div class="success-msg">
                                                 <i class="fa fa-check"></i>
                                                 Email sent successfully!
+                                            </div>
+                                        </div>
+                                    @endif
+                                    @if(session('error'))
+                                        <div class="col-md-9">
+                                            <div class="success-msg" style="background-color: red; color: white">
+                                                <i class="fa fa-xmark"></i>
+                                                {{session('error')}}
                                             </div>
                                         </div>
                                     @endif
