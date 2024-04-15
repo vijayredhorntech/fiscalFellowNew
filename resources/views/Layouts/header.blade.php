@@ -1,6 +1,6 @@
 <header id="home" class="header">
     <div id="main-nav" class="navbar navbar-inverse bs-docs-nav fixed" role="banner">
-        <div class="container" style="width: 90%">
+        <div class="container" style="width: 98%">
             <div class="navbar-header responsive-logo">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>

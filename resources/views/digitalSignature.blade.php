@@ -40,7 +40,7 @@
 
                             <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
                                 <select name="dcsType" style="margin-top: 10px" class="form-control input-box">
-                                    <option value="">-- Select --</option>
+                                    <option value="">-- Select type of DSC --</option>
                                     <option value="individualOnly">Class 3 Individual Sign Only</option>
                                     <option value="individualAndEncryption">Class 3 Individual Sign + Encryption</option>
                                     <option value="OrgnameOnly">Class 3 with Org Name Sign only</option>
@@ -160,7 +160,7 @@
 
                                     <div class="col-lg-12 col-sm-12" data-scrollreveal="enter left after 0s over 1s">
                                         <select name="dcsType" style="margin-top: 10px" class="form-control input-box">
-                                            <option value="">-- Select --</option>
+                                            <option value="">-- Select type of DSC --</option>
                                             <option value="individualOnly">Class 3 Individual Sign Only</option>
                                             <option value="individualAndEncryption">Class 3 Individual Sign + Encryption</option>
                                             <option value="OrgnameOnly">Class 3 with Org Name Sign only</option>

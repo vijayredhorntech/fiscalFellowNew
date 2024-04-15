@@ -243,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px; min-height: 280px; box-shadow: 0px 0px 5px 0px darkgray">
+                <div class="col-lg-3 col-sm-6" style="margin-bottom: 10px; min-height: 280px; box-shadow: 0px 0px 5px 0px darkgray" >
                     <div class="team-member2" style="min-height: 280px">
                         <div class="row">
                             <div class="col-lg-4">
@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row" id="contactUs">
+                        <div class="row" >
                             <div class="details">
                                 Trust is the foundation of our relationships. We maintain transparency in all our dealings.
                                 <div style="padding-bottom:2em;"><br /></div>
@@ -303,7 +303,7 @@
 
 
 
-    <section class="works" id="contact" >
+    <section class="works"  id="contactUs" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">

@@ -65,15 +65,15 @@
                             <div class="row">
                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                      <img src="{{asset('assets/images/home.png')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                                     <span style="font-weight: 700; color: black">Home Lone</span>
+                                     <span style="font-weight: 700; color: black">Home Loan</span>
                                  </div>
                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                      <img src="{{asset('assets/images/car.jpeg')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                                     <span style="font-weight: 700; color: black">Car Lone</span>
+                                     <span style="font-weight: 700; color: black">Car Loan</span>
                                  </div>
                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                      <img src="{{asset('assets/images/shop.png')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                                     <span style="font-weight: 700; color: black">Business Lone</span>
+                                     <span style="font-weight: 700; color: black">Business Loan</span>
                                  </div>
                             </div>
 
