@@ -38,7 +38,7 @@
                         <li>
                             <ul class="soc" style="display: flex; gap: 10px">
                                 <li><a href="https://www.instagram.com/FiscalFellows" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FFiscalFellows" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/FiscalFellows" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
                             </ul>
                         </li>
                     </ul>

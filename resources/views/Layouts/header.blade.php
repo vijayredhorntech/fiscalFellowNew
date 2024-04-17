@@ -15,20 +15,20 @@
             </div>
             <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
                 <ul class="nav navbar-nav navbar-right responsive-nav">
-                    <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? 'white': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? '#FFC700': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/About Us.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             ABOUT US</a></li>
-                    <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? 'white': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? '#FFC700': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             MUTUAL FUNDS</a></li>
-                    <li><a href="{{route('loans')}}" style="color: {{Route::currentRouteName()==='loans'? 'white': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('loans')}}" style="color: {{Route::currentRouteName()==='loans'? '#FFC700': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/HOme Loan 3.jpeg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             LOANS</a></li>
-                    <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? 'white': 'black' }}; font-weight: 600" >
+                    <li><a href="{{route('digitalSignature')}}" style="color: {{Route::currentRouteName()==='digitalSignature'? '#FFC700': 'black' }}; font-weight: 600" >
                             <img src="{{asset('assets/images/DSC.jpeg')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             <span id="digitalSignatureText">DSCs</span>
                         </a></li>
-                    <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? 'white': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('businessSupport')}}" style="color: {{Route::currentRouteName()==='businessSupport'? '#FFC700': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/business Support 2.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             <span id="businessSupportText">BUSINESS SUPPORT</span>
 {{--                            <script>--}}
@@ -52,7 +52,7 @@
 {{--                                window.addEventListener('resize', handleScreenSizeChange);--}}
 {{--                            </script>--}}
                         </a></li>
-                    <li><a href="{{route('home')}}#contactUs" style="color: {{Route::currentRouteName()==='dsa'? 'white': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('home')}}#contactUs" style="color: {{Route::currentRouteName()==='dsa'? '#FFC700': 'black' }}; font-weight: 600">
                             <img src="{{asset('assets/images/contact us 1.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             CONTACT US</a></li>
 

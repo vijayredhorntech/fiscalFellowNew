@@ -17,9 +17,9 @@
                 <div class="col-lg-4 col-md-6 col-sm-12" style="display: flex; flex-direction: column; gap: 50px">
                     <div class="swiffy-slider slider-nav-autoplay">
                         <ul class="slider-container">
-                            <li><img src="{{asset('assets/images/DSC.jpeg')}}" style="width: 100%" alt=""></li>
-                            <li><img src="{{asset('assets/images/DSC 1.jpg')}}" style="width: 100%" alt=""></li>
-                            <li><img src="{{asset('assets/images/DSC 2.png')}}" style="width: 100%" alt=""></li>
+                            <li><img src="{{asset('assets/images/DSC.jpeg')}}" style="width: 100%; height:100%" alt=""></li>
+                            <li><img src="{{asset('assets/images/DSC 1.jpg')}}" style="width: 100%;  height:100%" alt=""></li>
+                            <li><img src="{{asset('assets/images/DSC 2.png')}}" style="width: 100%;  height:100%" alt=""></li>
                         </ul>
 
                         <button type="button" class="slider-nav"></button>

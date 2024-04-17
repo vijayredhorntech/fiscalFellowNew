@@ -258,7 +258,7 @@
                             </div>
                         </div>
                         <div class="row" >
-                            <div class="details">
+                            <div class="details" id="contactUs">
                                 Trust is the foundation of our relationships. We maintain transparency in all our dealings.
                                 <div style="padding-bottom:2em;"><br /></div>
                             </div>

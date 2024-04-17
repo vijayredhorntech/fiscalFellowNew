@@ -26,6 +26,8 @@
                                 <ul class="slider-container">
                                     <li><img src="{{asset('assets/images/HOme Loan 3.jpeg')}}" style="width: 100%" alt=""></li>
                                     <li><img src="{{asset('assets/images/Car Loan 4.jpeg')}}" style="width: 100%" alt=""></li>
+                                    
+                                    <li><img src="{{asset('assets/images/l3.jpg')}}" style="width: 100%; height:100%" alt=""></li>
                                 </ul>
 
                                 <button type="button" class="slider-nav"></button>

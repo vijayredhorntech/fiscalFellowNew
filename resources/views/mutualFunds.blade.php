@@ -178,9 +178,9 @@
                               <div class="col-lg-4 col-md-6 col-sm-12">
                               <div class="swiffy-slider slider-nav-autoplay">
                                   <ul class="slider-container">
-                                      <li><img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="width: 100%" alt=""></li>
-                                      <li><img src="{{asset('assets/images/mutualFunds.jpg')}}" style="width: 100%" alt=""></li>
-                                      <li><img src="{{asset('assets/images/mutual.jpeg')}}" style="width: 100%" alt=""></li>
+                                      <li><img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="width: 100%; height:100%" alt=""></li>
+                                      <li><img src="{{asset('assets/images/mutualFunds.jpg')}}" style="width: 100%; height:100%" alt=""></li>
+                                      <li><img src="{{asset('assets/images/mutual.jpeg')}}" style="width: 100%; height:100%" alt=""></li>
                                   </ul>
 
                                   <button type="button" class="slider-nav"></button>
@@ -349,11 +349,11 @@
                                   <div class="sip-calculator-amount">
                                       <p style="margin-top: 1.8em;">
                                           <label id="amountLabel"> Monthly Investment</label>
-                                          <input name="Amount" id="inputAmount" type="number" step="1" value="500" min="0"
+                                          <input name="Amount" id="inputAmount" type="number" step="100" value="500" min="0"
                                                  max="5000000" />
                                           <span id="amount"></span> Rs.
                                       </p>
-                                      <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="1" min="0"
+                                      <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="100" min="0"
                                              max="5000000" value="500" />
                                   </div>
                                   <div class="sip-calculator-roi">
@@ -445,11 +445,11 @@
                                       <span id="investvalue" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
                                   <p class="returndiv">
-                                      <strong>Est. Returns:</strong>
+                                      <strong>Estimated Returns:</strong>
                                       <span id="estreturn" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
                                   <p class="returndiv">
-                                      <strong>Total Values:</strong>
+                                      <strong>Total Value:</strong>
                                       <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
                               </div>
