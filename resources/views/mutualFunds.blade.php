@@ -380,6 +380,8 @@
                                       </p>
 
                                   </div>
+
+
                               </div>
                               <div class="col-md-5">
                                   <p class="returndiv">
@@ -394,6 +396,12 @@
                                       <strong>Total Value:</strong>
                                       <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
+                              </div>
+                              <div class="col-md-12">
+                                  <p style="color: dodgerblue; font-size: 12px"><strong style="color: red">*Note:</strong>
+                                      Earnings shown here are just indicative and do not guarantee any gains. Mutual Fund investments are subject to market risks, read all scheme related documents carefully before investing.
+                                  </p>
+
                               </div>
                           </div>
                         </div>
