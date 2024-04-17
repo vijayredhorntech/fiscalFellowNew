@@ -200,6 +200,10 @@
 
 
                               <div style="padding-left: 2em;">
+                                  <p style="text-align:justify;">
+                                      Based on your risk appetite and financial objectives, mutual funds can be categorised into following categories:
+                                  </p><br />
+
 
                                   <ol style="padding-top: 1em;">
 
@@ -226,7 +230,7 @@
                                   <ol style="padding-top: 1em;">
 
                                       <li style="text-align: justify; padding-bottom:1em;">
-                                          <strong>3) Safety First: </strong>
+                                          <strong>3) Conservative: </strong>
 
                                       </li>
                                       <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
@@ -258,6 +262,12 @@
 
                                  <p style="text-align:justify;">
                                      At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
+                                 </p><br />
+                                 <p style="text-align:justify;">
+                                     Mutual Funds are not only the best tool to grow your savings but also to safeguard your savings from inflation which other investment instruments like bank FDs normally fail since interest earned on bank savings accounts or fixed deposits, is normally less than or just almost equal to inflation rate.
+                                 </p><br />
+                                 <p style="text-align:justify;">
+                                     We offer Personalized Solutions with a diverse array of mutual funds to cater to various investment goals after considering your risk appetite and financial objectives to recommend suitable funds with a long-term planning for different objectives like higher education, a vacation, retirement or to achieve any other financial milestone in the life.
                                  </p><br />
                                  <div style="padding-left: 2em;">
 
@@ -432,7 +442,7 @@
 
                                                   </div>
                                               </div>
-                                              <span id="amount"></span> Safety First
+                                              <span id="amount"></span> Conservative
                                           </div>
                                       </div>
                                       </p>

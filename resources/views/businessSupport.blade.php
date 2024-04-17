@@ -54,16 +54,16 @@
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> Company/LLP Registration: </strong>
-                                            Set up your business as a private limited, LLP, or partnership.
+                                           o <strong> Company/LLP Registration:  </strong>
+                                            Set up your business as a private limited, LLP, or a partnership.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> GST Registration:</strong>
-                                            Obtain your Goods and Services Tax identification.
+                                           o <strong>GST Registration: </strong>
+                                            Obtain your Goods and Services Tax identification number.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> Trademark Registration:</strong>
-                                            Protect your brand identity
+                                           o <strong>Trademark Registration: </strong>
+                                            Protect your brand’s identity with Trademark Registration.
                                         </li>
                                     </ol>
                                 </div>
@@ -76,12 +76,12 @@
 
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> Tax Compliance:</strong>
-                                            File income tax returns, TDS, and GST.
+                                           o <strong> Tax Compliance: </strong>
+                                            File income tax, TDS, and GST returns on time with peace of mind.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> Labour Law Compliance:</strong>
-                                            Adhere to labor-related regulations.
+                                           o <strong> Labour Law Compliance: </strong>
+                                            Adhere to labour-related regulations like EPF or ESI.
                                         </li>
                                     </ol>
                                 </div>
@@ -92,7 +92,7 @@
                                             <strong>3) Inventory Audits: </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            o Regular audits ensure accurate stock records, prevent losses and optimize inventory management.
+                                            o Regular audits ensure accurate stock records, prevent losses and optimize inventory management enhancing sales further.
                                         </li>
                                     </ol>
                                 </div>
@@ -106,9 +106,6 @@
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
                                            o <strong> Monitor key performance indicators (KPIs), financial metrics and operational data.</strong>
                                         </li>
-                                        <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                           o <strong> Make informed decisions based on real-time insights.</strong>
-                                        </li>
                                     </ol>
                                 </div>
 
@@ -120,11 +117,12 @@
                                             <strong>5) Ongoing Support: </strong>
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            o <strong> Compliance Management: </strong>
-                                            We ensure your business adheres to legal norms.
+                                            o <strong> Compliance Management:  </strong>
+                                            We ensure your business adheres to legal / statutory requirements.
                                         </li>
                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">
-                                            o Financial Advisory: Seek advice on financial planning, taxation and growth strategies.
+
+                                            o <strong>Financial Advisory: </strong> Seek advice on financial planning, taxation and growth strategies.
                                         </li>
                                     </ol>
                                 </div>
@@ -132,9 +130,6 @@
                                 <p style="text-align:justify;">
                                     Remember, at <strong>Fiscal Fellows</strong>, we prioritize your success. we’re not just service providers; we’re partners in your success story. Reach out to us for personalized assistance! Let’s build a prosperous future together!
                                 </p><br />
-
-
-
                             </div>
 
                         </div>
