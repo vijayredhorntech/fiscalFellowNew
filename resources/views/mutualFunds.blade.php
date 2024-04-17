@@ -143,9 +143,7 @@
         }
 
         @media (max-width: 576px) {
-            body {
-                font-size: smaller;
-            }
+
 
             .sip-calculator {
                 width: 100%;
@@ -176,7 +174,7 @@
                     <div class="col-md-12">
                         <div class="row">
                               <div class="col-lg-4 col-md-6 col-sm-12">
-                              <div class="swiffy-slider slider-nav-autoplay">
+                                  <div class="swiffy-slider slider-nav-autoplay">
                                   <ul class="slider-container">
                                       <li><img src="{{asset('assets/images/Mutual Funds.jpg')}}" style="width: 100%; height:100%" alt=""></li>
                                       <li><img src="{{asset('assets/images/mutualFunds.jpg')}}" style="width: 100%; height:100%" alt=""></li>
@@ -188,7 +186,7 @@
                               </div>
 
                           </div>
-                             <div class="col-lg-8 col-md-6 col-sm-12">
+                               <div class="col-lg-8 col-md-6 col-sm-12">
                                  <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
                                  <script>
                                      window.top.addEventListener("message", function(msg) {
@@ -208,55 +206,67 @@
                                          }
                                      });
                                  </script>
+                                   <div class="row">
+                                       <!-- COLUMN 1 - BRIEF ABOUT THE COMPANY-->
+                                       <div class="col-md-12" data-scrollreveal="enter bottom after 0s over 1s">
+
+                                           <p style="text-align:justify;">
+                                               At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
+                                           </p>
+                                           <p style="text-align:justify;">
+                                               Mutual Funds are not only the best tool to grow your savings but also to safeguard your savings from inflation which other investment instruments like bank FDs normally fail since interest earned on bank savings accounts or fixed deposits, is normally less than or just almost equal to inflation rate.
+                                           </p>
+                                           <p style="text-align:justify;">
+                                               We offer Personalized Solutions with a diverse array of mutual funds to cater to various investment goals after considering your risk appetite and financial objectives to recommend suitable funds with a long-term planning for different objectives like higher education, a vacation, retirement or to achieve any other financial milestone in the life.
+                                           </p>
+
+                                           <div>
+                                               <p style="text-align:justify;">
+                                                   Based on your risk appetite and financial objectives, mutual funds can be categorised into following categories:
+                                               </p><br />
 
 
-                                 <p style="text-align:justify;">
-                                     At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
-                                 </p>
-                                 <p style="text-align:justify;">
-                                     Mutual Funds are not only the best tool to grow your savings but also to safeguard your savings from inflation which other investment instruments like bank FDs normally fail since interest earned on bank savings accounts or fixed deposits, is normally less than or just almost equal to inflation rate.
-                                 </p>
-                                 <p style="text-align:justify;">
-                                     We offer Personalized Solutions with a diverse array of mutual funds to cater to various investment goals after considering your risk appetite and financial objectives to recommend suitable funds with a long-term planning for different objectives like higher education, a vacation, retirement or to achieve any other financial milestone in the life.
-                                 </p>
+                                               <ol>
 
-                                 <div>
-                                     <p style="text-align:justify;">
-                                         Based on your risk appetite and financial objectives, mutual funds can be categorised into following categories:
-                                     </p><br />
+                                                   <li style="text-align: justify;">
+                                                       <strong>1) Aggressive: </strong>
+
+                                                   </li>
+                                                   <li style="text-align: justify; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
+                                               </ol>
+                                           </div>
+                                           <div>
+
+                                               <ol style="padding-top: 1em;">
+
+                                                   <li style="text-align: justify;">
+                                                       <strong>2) Balanced: </strong>
+
+                                                   </li>
+                                                   <li style="text-align: justify; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
+                                               </ol>
+                                           </div>
+                                           <div>
+
+                                               <ol style="padding-top: 1em;">
+
+                                                   <li style="text-align: justify;">
+                                                       <strong>3) Conservative: </strong>
+
+                                                   </li>
+                                                   <li style="text-align: justify; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
+                                               </ol>
+                                           </div>
 
 
-                                     <ol>
+                                       </div>
+                                       <!-- / END 4 FOCUS BOXES -->
+                                   </div>
 
-                                         <li style="text-align: justify;">
-                                             <strong>1) Aggressive: </strong>
 
-                                         </li>
-                                         <li style="text-align: justify; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
-                                     </ol>
-                                 </div>
-                                 <div>
 
-                                     <ol style="padding-top: 1em;">
 
-                                         <li style="text-align: justify;">
-                                             <strong>2) Balanced: </strong>
 
-                                         </li>
-                                         <li style="text-align: justify; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
-                                     </ol>
-                                 </div>
-                                 <div>
-
-                                     <ol style="padding-top: 1em;">
-
-                                         <li style="text-align: justify;">
-                                             <strong>3) Conservative: </strong>
-
-                                         </li>
-                                         <li style="text-align: justify; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
-                                     </ol>
-                                 </div>
 
 
 
