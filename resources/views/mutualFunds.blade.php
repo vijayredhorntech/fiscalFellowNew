@@ -212,13 +212,13 @@
 
                                  <p style="text-align:justify;">
                                      At Fiscal Fellows, we offer a diverse range of mutual funds to suit your investment goals. Here’s what you need to know:
-                                 </p><br />
+                                 </p>
                                  <p style="text-align:justify;">
                                      Mutual Funds are not only the best tool to grow your savings but also to safeguard your savings from inflation which other investment instruments like bank FDs normally fail since interest earned on bank savings accounts or fixed deposits, is normally less than or just almost equal to inflation rate.
-                                 </p><br />
+                                 </p>
                                  <p style="text-align:justify;">
                                      We offer Personalized Solutions with a diverse array of mutual funds to cater to various investment goals after considering your risk appetite and financial objectives to recommend suitable funds with a long-term planning for different objectives like higher education, a vacation, retirement or to achieve any other financial milestone in the life.
-                                 </p><br />
+                                 </p>
 
                                  <div>
                                      <p style="text-align:justify;">
