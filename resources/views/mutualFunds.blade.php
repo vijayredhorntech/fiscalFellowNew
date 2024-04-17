@@ -226,35 +226,35 @@
                                      </p><br />
 
 
-                                     <ol style="padding-top: 1em;">
+                                     <ol>
 
-                                         <li style="text-align: justify; padding-bottom:1em;">
+                                         <li style="text-align: justify;">
                                              <strong>1) Aggressive: </strong>
 
                                          </li>
-                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
+                                         <li style="text-align: justify; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
                                      </ol>
                                  </div>
                                  <div>
 
                                      <ol style="padding-top: 1em;">
 
-                                         <li style="text-align: justify; padding-bottom:1em;">
+                                         <li style="text-align: justify;">
                                              <strong>2) Balanced: </strong>
 
                                          </li>
-                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
+                                         <li style="text-align: justify; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
                                      </ol>
                                  </div>
                                  <div>
 
                                      <ol style="padding-top: 1em;">
 
-                                         <li style="text-align: justify; padding-bottom:1em;">
+                                         <li style="text-align: justify;">
                                              <strong>3) Conservative: </strong>
 
                                          </li>
-                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
+                                         <li style="text-align: justify; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
                                      </ol>
                                  </div>
 

@@ -257,14 +257,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row" >
-                            <div class="details" id="contactUs">
+                        <div class="row">
+                            <div class="details" >
                                 Trust is the foundation of our relationships. We maintain transparency in all our dealings.
                                 <div style="padding-bottom:2em;"><br /></div>
                             </div>
                         </div>
                     </div>
-                </div><!-- / END MEMBER -->
+                </div>
+
+
+                <div class="row">
+                      <div class="col-md-12" id="contactUs" style="padding:30px 0px">
+
+                      </div>
+                </div>
+                <!-- / END MEMBER -->
             </div> <!-- / END TEAM MEMBER LIST -->
         </div> <!-- / END CONTAINER -->
     </section> <!-- / END VISION, MISSION, VALUES SECTION  -->
@@ -303,7 +311,7 @@
 
 
 
-    <section class="works"  id="contactUs" >
+    <section class="works" id="contactUs"  >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
