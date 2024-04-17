@@ -187,56 +187,6 @@
                                   <button type="button" class="slider-nav slider-nav-next"></button>
                               </div>
 
-
-                              <div class="section-header1" style="padding: 10px 5px">
-                                  <!-- SECTION TITLE -->
-                                  <h1 class="dark-text" style="font-size: 15px">Objective Aim:-</h1>
-                                  <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-                                  <!--<h6>
-                                      We design &amp; develop qaulity products to help small &amp; medium level business.
-
-                                  </h6>-->
-                              </div>
-
-
-                              <div style="padding-left: 2em;">
-                                  <p style="text-align:justify;">
-                                      Based on your risk appetite and financial objectives, mutual funds can be categorised into following categories:
-                                  </p><br />
-
-
-                                  <ol style="padding-top: 1em;">
-
-                                      <li style="text-align: justify; padding-bottom:1em;">
-                                          <strong>1) Aggressive: </strong>
-
-                                      </li>
-                                      <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
-                                  </ol>
-                              </div>
-                              <div style="padding-left: 2em;">
-
-                                  <ol style="padding-top: 1em;">
-
-                                      <li style="text-align: justify; padding-bottom:1em;">
-                                          <strong>2) Balanced: </strong>
-
-                                      </li>
-                                      <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
-                                  </ol>
-                              </div>
-                              <div style="padding-left: 2em;">
-
-                                  <ol style="padding-top: 1em;">
-
-                                      <li style="text-align: justify; padding-bottom:1em;">
-                                          <strong>3) Conservative: </strong>
-
-                                      </li>
-                                      <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
-                                  </ol>
-                              </div>
-
                           </div>
                              <div class="col-lg-8 col-md-6 col-sm-12">
                                  <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
@@ -269,6 +219,47 @@
                                  <p style="text-align:justify;">
                                      We offer Personalized Solutions with a diverse array of mutual funds to cater to various investment goals after considering your risk appetite and financial objectives to recommend suitable funds with a long-term planning for different objectives like higher education, a vacation, retirement or to achieve any other financial milestone in the life.
                                  </p><br />
+
+                                 <div>
+                                     <p style="text-align:justify;">
+                                         Based on your risk appetite and financial objectives, mutual funds can be categorised into following categories:
+                                     </p><br />
+
+
+                                     <ol style="padding-top: 1em;">
+
+                                         <li style="text-align: justify; padding-bottom:1em;">
+                                             <strong>1) Aggressive: </strong>
+
+                                         </li>
+                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Embrace the potential for higher returns by investing predominantly in growth-oriented assets like stocks. This strategy prioritizes capital appreciation over stability, aiming for investors with a higher risk tolerance seeking long-term growth opportunities.</li>
+                                     </ol>
+                                 </div>
+                                 <div>
+
+                                     <ol style="padding-top: 1em;">
+
+                                         <li style="text-align: justify; padding-bottom:1em;">
+                                             <strong>2) Balanced: </strong>
+
+                                         </li>
+                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Seek a middle ground between growth and stability by diversifying investments across various asset classes, including stocks, bonds, and sometimes alternative investments. This approach aims to provide a blend of capital appreciation and downside protection, suitable for investors with a moderate risk appetite.</li>
+                                     </ol>
+                                 </div>
+                                 <div>
+
+                                     <ol style="padding-top: 1em;">
+
+                                         <li style="text-align: justify; padding-bottom:1em;">
+                                             <strong>3) Conservative: </strong>
+
+                                         </li>
+                                         <li style="text-align: justify; padding-bottom:1em; padding-left: 2em">Prioritize capital preservation and income generation by focusing on low-risk assets like high-quality bonds and cash equivalents. This strategy aims to minimize volatility and preserve capital, appealing to investors prioritizing wealth protection and steady income streams over high returns.</li>
+                                     </ol>
+                                 </div>
+
+
+
                                  <div style="padding-left: 2em;">
 
                                      <ul style="padding-top: 1em;">
