@@ -104,7 +104,7 @@
                                             <strong>4) Daily MIS Reports: </strong>
                                         </li>
                                         <li style="text-align: justify; padding-left: 2em">
-                                           o <strong> Monitor key performance indicators (KPIs), financial metrics and operational data.</strong>
+                                           o  Monitor key performance indicators (KPIs), financial metrics and operational data.
                                         </li>
                                     </ol>
                                 </div>
