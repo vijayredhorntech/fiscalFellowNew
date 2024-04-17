@@ -6,12 +6,12 @@
     <!-- =========================
        ABOUT US SECTION
     ============================== -->
-    <section class="focus" >
-        <div class="container">
+    <section class="focus"  id="aboutus">
+        <div class="container" style="padding-bottom: 70px">
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <!-- SECTION TITLE -->
-                <h2 class="dark-text">About Us</h2>
+                <h2 class="dark-text" style="margin-top: 50px">About Us</h2>
                 <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
                 <!--<h6>
                     We design &amp; develop qaulity products to help small &amp; medium level business.

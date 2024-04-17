@@ -81,7 +81,7 @@
         <a href="{{route('home')}}#services" class="btn btn-primary custom-button red-btn">Our Services</a>
         <a href="{{route('home')}}#contactUs" class="btn btn-primary custom-button green-btn">Contact Us</a>
     </div>
-    <div class="slideShow" style="display:{{Route::currentRouteName()==='home'? '': 'none'}};" id="aboutus">
+    <div class="slideShow" style="display:{{Route::currentRouteName()==='home'? '': 'none'}};" >
         <a id="start-animation" title="Slide show">
             <i class="fa fa-play" aria-hidden="true" style="color: white"></i>
         </a>
