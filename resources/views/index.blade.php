@@ -6,7 +6,7 @@
     <!-- =========================
        ABOUT US SECTION
     ============================== -->
-    <section class="focus" id="aboutus">
+    <section class="focus" >
         <div class="container">
             <!-- SECTION HEADER -->
             <div class="section-header">
