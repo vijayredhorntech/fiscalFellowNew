@@ -26,7 +26,7 @@
                                 <ul class="slider-container">
                                     <li><img src="{{asset('assets/images/HOme Loan 3.jpeg')}}" style="width: 100%" alt=""></li>
                                     <li><img src="{{asset('assets/images/Car Loan 4.jpeg')}}" style="width: 100%" alt=""></li>
-                                    
+
                                     <li><img src="{{asset('assets/images/l3.jpg')}}" style="width: 100%; height:100%" alt=""></li>
                                 </ul>
 
@@ -66,16 +66,16 @@
                             </div>
                             <div class="row">
                                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                     <img src="{{asset('assets/images/home.png')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                                     <span style="font-weight: 700; color: black">Home Loan</span>
+                                     <img src="{{asset('assets/images/home.png')}}" class="loanTypeImages" alt="">
+                                     <span class="loanTypeName">Home Loan</span>
                                  </div>
-                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                     <img src="{{asset('assets/images/car.jpeg')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                                     <span style="font-weight: 700; color: black">Car Loan</span>
+                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3">
+                                     <img src="{{asset('assets/images/car.jpeg')}}" class="loanTypeImages" alt="">
+                                     <span class="loanTypeName">Car Loan</span>
                                  </div>
-                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                     <img src="{{asset('assets/images/shop.png')}}" style="height: 50px; width: 50px; border-radius: 50%" alt="">
-                                     <span style="font-weight: 700; color: black">Business Loan</span>
+                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-5">
+                                     <img src="{{asset('assets/images/shop.png')}}" class="loanTypeImages" alt="">
+                                     <span class="loanTypeName">Business Loan</span>
                                  </div>
                             </div>
 

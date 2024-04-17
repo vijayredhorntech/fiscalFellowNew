@@ -19,7 +19,7 @@
             <!-- 3 COLUMNS OF ABOUT US-->
             <div class="row">
                 <!-- COLUMN 1 - BRIEF ABOUT THE COMPANY-->
-                <div class="col-md-12" data-scrollreveal="enter bottom after 0s over 1s">
+                <div class="col-md-12">
 
 
 

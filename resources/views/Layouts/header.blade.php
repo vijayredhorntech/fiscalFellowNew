@@ -52,9 +52,16 @@
 {{--                                window.addEventListener('resize', handleScreenSizeChange);--}}
 {{--                            </script>--}}
                         </a></li>
-                    <li><a href="{{route('home')}}#contactUs" style="color: {{Route::currentRouteName()==='dsa'? '#FFC700': 'black' }}; font-weight: 600">
-                            <img src="{{asset('assets/images/contact us 1.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
-                            CONTACT US</a></li>
+                    <li>
+                        <a href="{{ route('home') }}#contactUs"
+                           style="color: {{ Route::currentRouteName()==='dsa' ? '#FFC700' : 'black' }}; font-weight: 600"
+                           onclick="window.location.reload();">
+                            <img src="{{ asset('assets/images/contact us 1.png') }}"
+                                 style="height: 30px; width: 30px; border-radius: 50%"
+                                 alt="">
+                            CONTACT US
+                        </a>
+                    </li>
 
                 </ul>
             </nav>
@@ -72,7 +79,7 @@
     </h1>
     <div class="buttons" style="display:{{Route::currentRouteName()==='home'? '': 'none'}}">
         <a href="{{route('home')}}#services" class="btn btn-primary custom-button red-btn">Our Services</a>
-        <a href="{{route('home')}}#contact" class="btn btn-primary custom-button green-btn">Contact Us</a>
+        <a href="{{route('home')}}#contactUs" class="btn btn-primary custom-button green-btn">Contact Us</a>
     </div>
     <div class="slideShow" style="display:{{Route::currentRouteName()==='home'? '': 'none'}};">
         <a id="start-animation" title="Slide show">

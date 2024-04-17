@@ -345,16 +345,16 @@
                         <div class="sip-calculator">
                           <div class="row">
                               <div class="col-md-7">
-                                  <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">Sip Calculator</h3>
+                                  <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">SIP Calculator</h3>
                                   <div class="sip-calculator-amount">
                                       <p style="margin-top: 1.8em;">
                                           <label id="amountLabel"> Monthly Investment</label>
                                           <input name="Amount" id="inputAmount" type="number" step="100" value="500" min="0"
-                                                 max="5000000" />
+                                                 max="500000" />
                                           <span id="amount"></span> Rs.
                                       </p>
                                       <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="100" min="0"
-                                             max="5000000" value="500" />
+                                             max="500000" value="500" />
                                   </div>
                                   <div class="sip-calculator-roi">
                                       <p style="margin-top: 1.8em;">
