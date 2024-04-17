@@ -15,7 +15,7 @@
             </div>
             <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
                 <ul class="nav navbar-nav navbar-right responsive-nav">
-                    <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? '#FFC700': 'black' }}; font-weight: 600">
+                    <li><a href="{{route('home')}}#aboutus" style="color: {{Route::currentRouteName()==='home'? '#FFC700': 'black' }}; font-weight: 600" onclick="window.location.reload();">
                             <img src="{{asset('assets/images/About Us.png')}}" style="height: 30px; width: 30px; border-radius: 50%" alt="">
                             ABOUT US</a></li>
                     <li><a href="{{route('mutualFunds')}}" style="color: {{Route::currentRouteName()==='mutualFunds'? '#FFC700': 'black' }}; font-weight: 600">
