@@ -291,20 +291,20 @@
                                   <div class="sip-calculator-amount">
                                       <p style="margin-top: 1.8em;">
                                           <label id="amountLabel"> Monthly Investment</label>
-                                          <input name="Amount" id="inputAmount" type="number" step="100" value="500" min="0"
+                                          <input name="Amount" id="inputAmount" type="number" step="100" value="10000" min="0"
                                                  max="500000" />
                                           <span id="amount"></span> Rs.
                                       </p>
                                       <input class="amount-slider" name="realAmount" id="myAmount" type="range" step="100" min="0"
-                                             max="500000" value="500" />
+                                             max="500000" value="10000" />
                                   </div>
                                   <div class="sip-calculator-roi">
                                       <p style="margin-top: 1.8em;">
                                           Return Rate
-                                          <input name="Retunrs" id="inputRoi" type="number" value="2" min="1" max="30" />
+                                          <input name="Retunrs" id="inputRoi" type="number" value="10" min="1" max="30" />
                                           <span id="roi"></span> %
                                       </p>
-                                      <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="2">
+                                      <input class="roi-slider" name="realRoi" id="myRoi" type="range" min="1" step="1" max="30" value="10">
                                   </div>
                                   <div class="sip-calculator-year">
                                       <p style="margin-top: 1.8em;">
@@ -312,7 +312,7 @@
                                           <input name="Years" id="inputYears" type="number" value="10" min="1" max="50" />
                                           <span id="years"></span> Yr
                                       </p>
-                                      <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="1">
+                                      <input class="year-slider" name="realYears" id="myYears" type="range" min="1" max="50" step="1" value="10">
                                   </div>
                                   <div class="sip-calculator-amount" >
                                       <p style="margin-top: 1.8em; display: flex; justify-content: center">
