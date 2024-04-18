@@ -412,15 +412,15 @@
                               </div>
                               <div class="col-md-5">
                                   <p class="returndiv">
-                                      <strong>Invested Amount:</strong>
+                                      <strong>Invested Amount:</strong><br>
                                       <span id="investvalue" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
                                   <p class="returndiv">
-                                      <strong>Estimated Returns:</strong>
+                                      <strong>Estimated Returns:</strong><br>
                                       <span id="estreturn" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
                                   <p class="returndiv">
-                                      <strong>Total Value:</strong>
+                                      <strong>Total Value:</strong><br>
                                       <span id="totalv" style="font-size: 1.2em;margin-left: 8px;"></span>
                                   </p>
                               </div>
