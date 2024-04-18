@@ -456,8 +456,8 @@
             let pieChart;
             function formatNumberWithCommas(number) {
                 return new Intl.NumberFormat('en-IN', {
-                    maximumFractionDigits: 2,
-                    minimumFractionDigits: 2
+                    maximumFractionDigits: 0,
+                    minimumFractionDigits: 0
                 }).format(number);
             }
             function selectedfun() {
