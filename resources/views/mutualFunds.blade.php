@@ -121,6 +121,7 @@
 
 
         .returndiv{
+            text-align: right;
             margin-top: 1em;
             font-size: 1.2em;
             background: #f1f2f3;
