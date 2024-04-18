@@ -150,6 +150,32 @@
                 padding: 2em;
                 margin: .1em;
             }
+
+            .returndiv{
+                margin-top: 1em;
+                font-size: 0.9em;
+                background: #f1f2f3;
+                border-radius: 7px;
+                padding: 20px;
+            }
+
+            input[type=number] {
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                cursor: pointer;
+                background: var(--input-number-color);
+                border-style: none;
+                height: 30px;
+                margin-left: 20px;
+                margin-right: 10px;
+                text-align: right;
+                padding-right: 5px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.2em;
+                border-radius: 4px;
+
+            }
+
         }
 
         @media (max-width: 768px) {
@@ -289,7 +315,7 @@
                               <div class="col-md-7">
                                   <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">SIP Calculator</h3>
                                   <div class="sip-calculator-amount">
-                                      <p style="margin-top: 1.8em;">
+                                      <p style="margin-top: 1.8em; display: flex">
                                           <label id="amountLabel"> Monthly Investment</label>
                                           <input name="Amount" id="inputAmount" type="number" step="100" value="10000" min="0"
                                                  max="500000" />
@@ -428,7 +454,12 @@
             let totalv = document.getElementById('totalv');
 
             let pieChart;
-
+            function formatNumberWithCommas(number) {
+                return new Intl.NumberFormat('en-IN', {
+                    maximumFractionDigits: 2,
+                    minimumFractionDigits: 2
+                }).format(number);
+            }
             function selectedfun() {
                 sliders.forEach(function(slider) {
                     slider.addEventListener("input", sliderfun);
@@ -454,15 +485,21 @@
 
                     total = investments * months;
 
-                    let wealth = Math.round(futureValue - total);
-                    let totalinvestvalue = Math.round(total);
-                    let totalvalues = Math.round(futureValue);
+                    let wealth =formatNumberWithCommas(Math.round(futureValue - total));
+                    let totalinvestvalue =formatNumberWithCommas(Math.round(total));
+                    let totalvalues =formatNumberWithCommas(Math.round(futureValue));
 
                     investvalue.innerText = totalinvestvalue;
+
+
+
                     totalv.innerHTML = totalvalues;
                     estreturn.innerHTML = wealth;
 
-                    updatePieChart(totalinvestvalue, wealth);
+                    updatePieChart(Math.round(total), Math.round(futureValue - total));
+
+
+
                 };
 
 
@@ -490,16 +527,23 @@
 
                     futureValue = (investments * ((mathpow - 1) * mplush)) / monthlyRate;
 
-                    wealth = Math.round(futureValue - total);
-                    let totalinvestvalue = Math.round(total);
-                    let totalvalues = Math.round(futureValue);
+                    wealth =formatNumberWithCommas(Math.round(futureValue - total));
+
+
+                    let totalinvestvalue = formatNumberWithCommas(Math.round(total));
+
+
+                    let totalvalues =formatNumberWithCommas(Math.round(futureValue));
 
                     investvalue.innerText = totalinvestvalue;
                     totalv.innerHTML = totalvalues;
                     estreturn.innerHTML = wealth;
 
-                    updatePieChart(totalinvestvalue, wealth);
+                    updatePieChart(Math.round(total), Math.round(futureValue - total));
+
                 }
+
+
 
                 sliderfun();
             };
