@@ -313,8 +313,11 @@
                     <form name="sipForm">
                         <div class="sip-calculator">
                           <div class="row">
+                              <div class="col-md-12" style="margin-bottom: 10px; background-color: #6acdcd; color: black; font-weight: 700; display: flex; justify-content: center; align-items: center; padding: 10px 0px">
+                                  <h3 id="heading" style="text-align: center;">SIP Calculator</h3>
+
+                              </div>
                               <div class="col-md-7">
-                                  <h3 id="heading" style="margin-bottom: 1.5em; text-align: center;">SIP Calculator</h3>
                                   <div class="sip-calculator-amount">
                                       <p style="margin-top: 1.8em; display: flex">
                                           <label id="amountLabel"> Monthly Investment</label>
