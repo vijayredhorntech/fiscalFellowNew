@@ -51,7 +51,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p class="text-center">© Copyright 2024. All rights reserved. Designed by <a href="http://www.himsoftsolution.com" target="_blank">Him Soft Solution</a>.</p>
+                <p class="text-center">© Copyright 2024. All rights reserved. Designed by <a href="http://www.himsoftsolution.com" target="_blank" style="color: #f6ab2b">Him Soft Solution</a>.</p>
             </div>
         </div>
     </div>
