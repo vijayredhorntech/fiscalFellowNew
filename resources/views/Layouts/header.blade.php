@@ -10,7 +10,7 @@
                 </button>
                 <a href="{{route('home')}}" class="navbar-brand" style="display: flex; align-items: center; gap: 5px">
                     <img src="{{asset('assets/images/logo.jpg')}}" alt="Unified Vision Capital">
-                    <img src="{{asset('assets/images/nameLogo.png')}}" alt="Unified Vision Capital" style="height: 50%">
+                    <img src="{{asset('assets/images/nameLogo.png')}}" alt="Unified Vision Capital" style="height: 45%">
 {{--                    <span class="brandName">Fiscal Fellows</span>--}}
                 </a>
             </div>

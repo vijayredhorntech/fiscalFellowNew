@@ -217,7 +217,59 @@
                                   <button type="button" class="slider-nav slider-nav-next"></button>
                               </div>
 
-                          </div>
+
+                                  <h3 class="dark-text" style="font-size: 25px; font-weight: 700;padding: 20px 0px; padding-top: 40px">Partner Mutual Funds</h3>
+
+                                  <div class="swiffy-slider slider-nav-autoplay">
+                                      <?php
+
+                                         // make a images array
+                                            $images = array(
+                                                'assets/images/company1.jpg',
+                                                'assets/images/company2.jpg',
+                                                'assets/images/company3.jpg',
+                                                'assets/images/company4.png',
+                                                'assets/images/company5.png',
+                                                'assets/images/company6.jpg',
+                                                'assets/images/company7.png',
+                                                'assets/images/company8.jpg',
+                                                'assets/images/company9.jpg',
+                                                'assets/images/company10.png',
+                                                'assets/images/company11.jpg',
+                                                'assets/images/company12.jpg',
+                                                'assets/images/company13.jpg',
+                                                'assets/images/company14.jpg',
+                                                'assets/images/company15.jpg',
+                                                'assets/images/company16.jpg',
+                                                'assets/images/company17.jpg',
+                                                'assets/images/company18.jpg',
+                                                'assets/images/company19.jpg',
+                                                'assets/images/company20.jpg',
+                                                'assets/images/company21.jpg',
+                                                'assets/images/company22.jpg',
+                                            );
+                                      ?>
+
+                                      <ul class="slider-container">
+                                            @foreach($images as $image)
+                                                <li><img src="{{asset($image)}}" style="width: 100%; height:100%" alt=""></li>
+                                            @endforeach
+                                      </ul>
+
+                                      <button type="button" class="slider-nav"></button>
+                                      <button type="button" class="slider-nav slider-nav-next"></button>
+                                  </div>
+
+                                  <p style="color: dodgerblue; font-size: 12px; padding: 5px 0px; line-height: 15px"><strong style="color: red">*Note:</strong>
+                                      Mutual Fund logos shown here are registered logos of respective companies.
+                                  </p>
+
+
+                              </div>
+
+
+
+
                                <div class="col-lg-8 col-md-6 col-sm-12">
                                  <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
                                  <script>
