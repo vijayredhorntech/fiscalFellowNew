@@ -271,25 +271,48 @@
 
 
                                <div class="col-lg-8 col-md-6 col-sm-12">
-                                 <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>
-                                 <script>
-                                     window.top.addEventListener("message", function(msg) {
-                                         const widget = document.getElementById('TickerTape-klkutaf');
+{{--                                 <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6613b01b7e7cd5981eca32bb" id="TickerTape-klkutaf"></iframe>--}}
+{{--                                 <script>--}}
+{{--                                     window.top.addEventListener("message", function(msg) {--}}
+{{--                                         const widget = document.getElementById('TickerTape-klkutaf');--}}
 
-                                         if (!widget) return;
+{{--                                         if (!widget) return;--}}
 
-                                         const styles = msg.data?.styles;
-                                         if (styles) {
-                                             Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
-                                         }
+{{--                                         const styles = msg.data?.styles;--}}
+{{--                                         if (styles) {--}}
+{{--                                             Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))--}}
+{{--                                         }--}}
 
-                                         const height = msg.data?.tickerTapeHeight;
+{{--                                         const height = msg.data?.tickerTapeHeight;--}}
 
-                                         if (height) {
-                                             widget.style.setProperty('height', height + 'px');
-                                         }
-                                     });
-                                 </script>
+{{--                                         if (height) {--}}
+{{--                                             widget.style.setProperty('height', height + 'px');--}}
+{{--                                         }--}}
+{{--                                     });--}}
+{{--                                 </script>--}}
+
+
+
+                                   <iframe style="border: none; width:100%; height: 53px;" data-widget-name="TickerTape" src="https://widget.darqube.com/ticker-tape?token=6626018abbd559700578ec0f" id="TickerTape-qeoyu0b"></iframe>
+                                   <script>
+                                       window.top.addEventListener("message", function(msg) {
+                                           const widget = document.getElementById('TickerTape-qeoyu0b');
+
+                                           if (!widget) return;
+
+                                           const styles = msg.data?.styles;
+                                           if (styles) {
+                                               Object.keys(styles).forEach(key => widget.style.setProperty(key, styles[key]))
+                                           }
+
+                                           const height = msg.data?.tickerTapeHeight;
+
+                                           if (height) {
+                                               widget.style.setProperty('height', height + 'px');
+                                           }
+                                       });
+                                   </script>
+
                                    <div class="row">
                                        <!-- COLUMN 1 - BRIEF ABOUT THE COMPANY-->
                                        <div class="col-md-12" data-scrollreveal="enter bottom after 0s over 1s">
