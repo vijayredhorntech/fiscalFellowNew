@@ -12,12 +12,12 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Query Submission</div>
+                <div class="card-header">New DSC Enquiry </div>
 
                 <div class="card-body">
                     <p><strong>Name:</strong> {{ $data['name'] }}</p>
                     <p><strong>Type</strong> {{ $data['dcsType'] }}</p>
-                    <p><strong>Phone:</strong> {{ $data['phone'] }}</p>
+                    <p><strong>Phone:</strong> {{ $data['number'] }}</p>
                 </div>
             </div>
         </div>

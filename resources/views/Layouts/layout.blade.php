@@ -43,6 +43,42 @@
 
     @stack('styles')
 
+    <style>
+        .tollFree
+        {
+            position: fixed;
+            right: 20px;
+            bottom: 80px;
+            width: 40px;
+            overflow:hidden;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .tollFree:hover {
+            width: 120px;
+            transition: 0.5s;
+        }
+
+        .tollFreeNumber
+        {
+            height: 0px;
+            overflow: hidden;
+            position: fixed ;
+            left: 0px;
+            bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            transition: 0.5s;
+
+        }
+    </style>
+
 
 </head>
 
@@ -50,10 +86,7 @@
 <body ng-controller="emailController">
 
 @include('Layouts.header')
-
      @yield('content')
-
-
 @include('Layouts.footer')
 
 
@@ -61,6 +94,27 @@
     <a  href="https://wa.me/9878434296" target="_blank" style="position: fixed; right: 20px; bottom: 20px">
         <i class="fa-brands fa-whatsapp" style="font-size: 40px; color: #34b647"></i>
     </a>
+
+    <div class="tollFree" onclick="document.querySelector('.tollFreeNumber').style.height = '130px';">
+        <img src="{{asset('assets/images/tollfree.png')}}" alt="" style="width: 40px">
+        <div style="display: flex; flex-direction: column; justify-content: center; color: #f6ab2b">
+            <span style="font-weight: bold; font-size: 15px; margin-left: 10px; line-height: 10px"> Toll&nbspFree</span>
+            <span style="font-weight: bold; font-size: 15px; margin-left: 10px"> Number</span>
+        </div>
+    </div>
+
+<div class="tollFreeNumber">
+    <a href="tel:18008896296" target="_blank">
+        <div style="width: 350px; height: max-content; padding: 16px 5px; background-color: #77b0aa; border-radius: 10px ; display: flex; justify-content: center; align-items: center">
+            <i class="fa fa-phone" style="color: black; font-weight: bold; font-size: 20px; margin-right: 10px"></i>
+            <span style="color: black; font-weight: bold; font-size: 20px">1800 88 96296</span>
+        </div>
+    </a>
+        <div style="cursor: pointer; width: 350px; height: max-content; padding: 16px 5px; background-color: #77b0aa; border-radius: 10px ; display: flex; justify-content: center; align-items: center"
+             onclick=" document.querySelector('.tollFreeNumber').style.height = '0px';">
+            <span style="color: black; font-weight: bold; font-size: 20px">Cancle</span>
+        </div>
+</div>
 
 
 

@@ -12,7 +12,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Query Submission</div>
+                <div class="card-header">New Business Enquiry</div>
 
                 <div class="card-body">
                     <p><strong>Name:</strong> {{ $data['name'] }}</p>

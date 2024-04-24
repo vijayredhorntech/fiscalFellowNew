@@ -47,27 +47,17 @@ Route::post('/query', function (Request $request) {
 
     try {
         Mail::send('mail', ['data' => $data], function ($message) use ($data) {
-            $message->to('care@fiscalfellows.com', 'Fiscal Fellows')
+            $message->to('webform@fiscalfellows.com', 'Fiscal Fellows')
                 ->subject('Query')
-                ->from($data['email'], $data['name']);
+                ->from('webform@fiscalfellows.com', 'BUSINESS ENQUIRY');
         });
     }
     catch (\Exception $e) {
-
         session()->flash('success', 'Your query has been submitted successfully!');
-
-
         return redirect()->back();
     }
-
-    // save success message in session
-
     session()->flash('success', 'Your query has been submitted successfully!');
-
     return redirect()->back();
-
-    // You may add any further logic you need here, such as redirecting the user to a thank you page.
-
 })->name('query');
 
 
@@ -85,9 +75,9 @@ Route::post('/dscQuery', function (Request $request) {
 
     try {
         Mail::send('dscMail', ['data' => $data], function ($message) use ($data) {
-            $message->to('care@fiscalfellows.com', 'Fiscal Fellows')
+            $message->to('vcdiamond507@gmail.com', 'Fiscal Fellows')
                 ->subject('Query')
-                ->from('care@fiscalfellows.com', 'New Query');
+                ->from('webform@fiscalfellows.com', 'DSC ENQUIRY');
         });
     }
     catch (\Exception $e) {
@@ -97,6 +87,8 @@ Route::post('/dscQuery', function (Request $request) {
 
         return redirect()->back();
     }
+
+
 
     // save success message in session
 
